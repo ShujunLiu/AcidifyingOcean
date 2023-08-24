@@ -1,59 +1,53 @@
 {
-	"0":
-	{
-		"Subtitle":"THE OCEANS <strong>ABSORB AROUND 30% OF THE CARBON DIOXIDE (CO2)</strong> THAT IS RELEASED INTO THE ATMOSPHERE"
-	},
+    "0": {
+        "Subtitle": "海洋<strong>吸收大约30%的二氧化碳(CO2)</strong>，这些二氧化碳被释放到大气中"
+    },
 
-	"7":
-	{
-		"Subtitle":"SINCE 1860, THE OCEANS’ PH HAS <strong> FALLEN BY 0.1 PH UNITS</strong>"
-	},
-	"13":
-	{
-		"Subtitle":"FROM 8.2 PH TO 8.1 PH"
-	},
-	"17":
-	{
-		"Subtitle":"WHAT SEEMS LIKE A SMALL CHANGE OF 0.1 ACTUALLY MEANS THAT TODAY THE <strong> OCEANS ARE 30% MORE ACIDIC</strong>"
-	},
-	"24":
-	{
-		"Subtitle":"IN <strong>HUMANS</strong>, A DROP OF 0.1 PH UNITS IN THE BLOOD CAN RESULT IN "
-	},
-	"30":
-	{
-		"Subtitle":"SEIZURES, COMA OR EVEN <strong> DEATH</strong>"
-	},
-	"35":
-	{
-		"Subtitle":"IF WE CONTINUE AT THIS PACE, BY 2100 THE OCEANS WILL BE <strong>170% MORE ACIDIC</strong>"
-	},
-	"42":
-	{
-		"Subtitle":"FALLING TO A PH OF AROUND 7.6"
-	},
+    "7": {
+        "Subtitle": "自1860年以来，海洋的pH值已经<strong>下降了0.1 pH单位</strong>"
+    },
 
-	"46":
-	{
-		"Subtitle":"LET’S CONSIDER THE HUGE CONSEQUENCES: <br> OCEAN ACIDIFICATION CAN PRECIPITATE <strong> ECOLOGICAL COLLAPSE</strong>"
-	},
+    "13": {
+        "Subtitle": "从8.2 pH降至8.1 pH"
+    },
 
-	"56":
-	{
-		"Subtitle":"RESEARCH HAS SHOWN THAT <strong>66 MILLION YEARS AGO</strong> A DROP IN PH OF 0.25"
-	},
+    "17": {
+        "Subtitle": "似乎只是0.1的小变化实际上意味着今天的<strong>海洋比以前酸性增加了30%</strong>"
+    },
 
-	"63":
-	{
-		"Subtitle":"WAS ENOUGH TO PRECIPITATE <strong>ANOTHER MASS EXTINCTION</strong>"
-	},
+    "24": {
+        "Subtitle": "在<strong>人类</strong>中，血液中pH单位下降0.1可能导致"
+    },
 
-	"68":
-	{
-		"Subtitle":" AND IT WAS <strong>HUNDREDS OF THOUSANDS OF YEARS</strong> BEFORE LIFE RETURNED TO NORMAL"
-	},
-	"75":
-	{
-		"Subtitle":" "
-	}
+    "30": {
+        "Subtitle": "发作、昏迷或甚至<strong>死亡</strong>"
+    },
+
+    "35": {
+        "Subtitle": "如果我们继续这个速度，到2100年海洋将会<strong>酸性增加170%</strong>"
+    },
+
+    "42": {
+        "Subtitle": "下降到约7.6的pH值"
+    },
+
+    "46": {
+        "Subtitle": "让我们考虑巨大的后果：<br>海洋酸化可能导致<strong>生态崩溃</strong>"
+    },
+
+    "56": {
+        "Subtitle": "研究已经显示，<strong>6600万年前</strong>pH值下降0.25"
+    },
+
+    "63": {
+        "Subtitle": "足以导致<strong>另一次大规模灭绝</strong>"
+    },
+
+    "68": {
+        "Subtitle": "而且在正常生活回归之前是<strong>数十万年</strong>"
+    },
+    
+    "75": {
+        "Subtitle": " "
+    }
 }

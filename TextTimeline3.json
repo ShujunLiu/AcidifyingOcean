@@ -1,54 +1,43 @@
 {
-	"0":
-	{
-		"Subtitle":"IN JUST <strong>15 YEARS</strong> THE GLOBAL TEMPERATURE IS ANTICIPATED TO <strong>EXCEED THE 1.5°C MILESTONE</strong>"
-	},
+    "0": {
+        "Subtitle": "仅在<strong>15年</strong>内，全球温度预计将<strong>超过1.5°C的里程碑</strong>"
+    },
 
-	"7":
-	{
-		"Subtitle":"AND AFTER <strong>2050</strong> IS EXPECTED TO <strong>SURPASS THE 2°C</strong> BENCHMARK"
-	},
+    "7": {
+        "Subtitle": "而在<strong>2050年</strong>后，预计将<strong>超过2°C</strong>的基准"
+    },
 
-	"13":
-	{
-		"Subtitle":"THIS BENCHMARK IS A <strong>TIPPING POINT</strong> FOR THE FUTURE OF THE OCEANS"
-	},
+    "13": {
+        "Subtitle": "这个基准是海洋未来的<strong>转折点</strong>"
+    },
 
-	"18":
-	{
-		"Subtitle":"WITH INCREASINGLY <strong>WARMER TEMPERATURES</strong> AROUND THE WORLD"
-	},
+    "18": {
+        "Subtitle": "全球<strong>温度逐渐升高</strong>"
+    },
 
-	"23":
-	{
-		"Subtitle":"WE ARE DEPLETING THE OCEANS OF OXYGEN <br> AND <strong>SUFFOCATING </strong> ALL LIFEFORMS"
-	},
+    "23": {
+        "Subtitle": "我们正在消耗海洋中的氧气<br>并<strong>窒息</strong>所有生命形式"
+    },
 
-	"29":
-	{
-		"Subtitle":"AND WITH TODAY’S ADDITIONAL STRESSES, INCLUDING <strong>POLLUTION AND OVERFISHING</strong>"
-	},
+    "29": {
+        "Subtitle": "而且，由于今天的额外压力，包括<strong>污染和过度捕捞</strong>"
+    },
 
-	"34":
-	{
-		"Subtitle":"WE MIGHT HAVE A COMPLETE <strong>BREAKDOWN OF THE WHOLE FOOD CHAIN</strong>"
-	},
+    "34": {
+        "Subtitle": "我们可能会完全<strong>破坏整个食物链</strong>"
+    },
 
-	"40":
-	{
-		"Subtitle":"DO WE WANT OCEANS THAT ARE EMPTY OF LIFE AND ONLY FILLED WITH OUR <strong>GARBAGE?</strong>"
-	},
+    "40": {
+        "Subtitle": "我们想要一个只有我们的<strong>垃圾</strong>而没有生命的海洋吗？"
+    },
 
-	"47":
-	{
-		"Subtitle":"THESE ANIMALS DON’T ONLY SUSTAIN THE MARINE ECOSYSTEM. THEY ULTIMATELY <strong> SUSTAIN US</strong>"
-	},
-	"53":
-	{
-		"Subtitle":"HUMAN BEINGS AND OUR ECONOMIES, CULTURES, AND COMMUNITIES <strong>DEPEND ON THEM</strong>"
-	},
-	"59":
-	{
-		"Subtitle":" "
-	}
+    "47": {
+        "Subtitle": "这些动物不仅维持海洋生态系统。他们最终<strong>维持了我们</strong>"
+    },
+    "53": {
+        "Subtitle": "人类及我们的经济、文化和社区<strong>都依赖于他们</strong>"
+    },
+    "59": {
+        "Subtitle": " "
+    }
 }
