@@ -1,45 +1,41 @@
 {
-	"Pteropod":
 	{
-		"Name":		"PTEROPOD",
-		"Description":	"<h1>The Pteropod, or “sea butterfly”, is a tiny sea creature, about the size of a small pea. </h1> <h2>Pteropods play a hugely important role in oceanic ecosystems. They sustain an enormous part of the marine ecosystem, either directly – feeding animals like Krill, Whales, and Salmon – or indirectly, by being the food source for animals like Seals and Polar Bears.</h2> <h2>Ocean Acidification is the ongoing decrease of the pH of the Earth's oceans, caused by the uptake of carbon dioxide (CO2) from the atmosphere. This means the water acidifies and it becomes difficult for the hard structures that many marine animals consist of to form. Pteropods, like snails, live in thin shells which are in great danger in acidifying waters.</h2>  <h2> <strong>Studies show that when Pteropods are placed in water with the same pH levels and CO2 that are projected for the year 2100, their shells start decaying within 48 hours and nearly completely dissolve within 45 days.</strong></h2> <h2>As Pteropods are at the very base of the marine food web, their absence would cause a ripple effect across the entire oceanic ecosystem, and beyond.</h2>",
-		"Model":	"Models/Pteropod.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_" ],
-		"Scale":0.6,
-        "TriangleScale":0.0016,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Studies show that when Pteropods are placed in water with the same pH levels and CO2 that are projected for the year 2100, their shells start decaying within 48 hours and nearly completely dissolve within 45 days"
-	},
+		"Pteropod":
+		{
+			"Name":		"翼足类",
+			"Description":	"<h1>翼足类，或称为“海蝶”，是一种微小的海洋生物，大小约如小豌豆。</h1> <h2>翼足类在海洋生态系统中起着极为重要的作用。它们直接或间接维持了海洋生态系统的巨大部分，如为鲸、鲑鱼和虾供应食物，或为像海豹和北极熊这样的动物提供食源。</h2> <h2>海洋酸化是地球海洋pH值持续下降的过程，由于大气中的二氧化碳（CO2）的吸收造成的。这意味着水会变酸，许多海洋动物的硬结构变得难以形成。像蜗牛一样的翼足类生活在薄壳中，在酸化水中面临着巨大的危险。</h2>  <h2> <strong>研究显示，当翼足类放在与预计到2100年的pH值和CO2相同的水中时，它们的外壳在48小时内开始腐烂，而在45天内几乎完全溶解。</strong></h2> <h2>由于翼足类处于海洋食物链的最底层，它们的缺失会对整个海洋生态系统产生连锁反应。</h2>",
+			"Model":	"Models/Pteropod.ply",
+			"AfterYear":	1860,
+			"Categorys" : [ "Animal_", "Bigbang_" ],
+			"Scale":0.6,
+			"TriangleScale":0.0016,
+			"Animal_PhysicsDuration":35,
+			"ShareText": "研究表明，当翼足类放在与预计到2100年的pH值和CO2相同的水中时，它们的外壳在48小时内开始腐烂，并在45天内几乎完全溶解。"
+		},
+		
+		"Jellyfish":
+		{
+			"Name":		"水母",
+			"Description":	"<h1>水母是令人难以置信的动物：如果不受干扰，有些水母可以永远生存，有些则因其透明的身体而能够公然隐藏。更不用说，箱形水母是地球上最有毒的动物。</h1> <h2>与其他海洋动物不同，高度适应的水母在这些日益增加的危险条件中茁壮成长，即使水温上升，海洋含氧量下降和变得更加酸性。</h2> <h2>在过去的50年里，海洋的氧气水平下降了大约2%。在这样的条件下，水母仍然可以茁壮成长，而其他海洋动物则不能。</h2> <h2>由于90%的鱼类库存已被完全捕捞或过度捕捞，我们已经减少了水母的一些主要天敌，以及它们的竞争对手，如金枪鱼、剑鱼和鳀鱼。因此，大规模的水母大量繁殖在增加，这表明我们的海洋健康状况在下降。这种变化正在导致生物多样性发生巨大的转变。</h2> <h2> <strong> 水母是地球上最古老的物种之一，已经存在了超过5.4亿年。这些生物能够忍受的程度令人惊叹，但我们如何保持我们的海洋不被大量的水母所占据？ </strong></h2>",
+			"Model":	"Models/Jellyfish.ply",
+			"AfterYear":	1950,
+			"Categorys" : [ "Animal_"],
+			"Scale":0.7,
+			"TriangleScale":0.002,
+			"ShareText": "水母是地球上最古老的物种之一，已经存在了超过5.4亿年。它们能够忍受的程度令人惊叹，但我们如何保持我们的海洋不被大量的水母所占据？"
+		},
 	
-	"Jellyfish":
-	{
-		"Name":		"JELLYFISH",
-		"Description":	"<h1>Jellyfish are incredible animals: some are able to live forever if left undisturbed, some can hide in plain sight thanks to their transparent body. And let’s not forget, the Box Jellyfish is the most venomous animal on the planet.</h1> <h2> Unlike other marine animals the highly resilient Jellyfish thrive in these increasingly risky conditions, even as water temperatures rise and the oceans become less oxygenated and more acidic.</h2> <h2>In the last 50 years oxygen levels in the ocean have dropped by around 2%. In such conditions, Jellyfish can still thrive whereas other marine animals cannot.</h2> <h2> With 90% of fish stocks fully fished or overfished, we’ve depleted our oceans of some of the main natural predators of Jellyfish, as well as their competitors, like Tuna, Swordfish, and Anchovies. As a result, massive Jellyfish blooms are on the rise, indicating the declining health of our oceans. And it’s a change that’s causing a huge shift in biodiversity.</h2> <h2> <strong> Jellyfish are one of the oldest species on the planet, having existed for more than 540 million years. It’s remarkable how much these creatures can endure, but how do we keep our oceans from being predominantly full of Jellyfish? </strong></h2>",
-		"Model":	"Models/Jellyfish.ply",
-		"AfterYear":	1950,
-		"Categorys" : [ "Animal_"],
-		"Scale":0.7,
-        "TriangleScale":0.002,
-        "ShareText": "Jellyfish are one of the oldest species on the planet, having existed for more than 540 million years. It's remarkable how much these creatures can endure, but how do we keep our oceans from being predominantly full of Jellyfish?"
-
-	},
-
-	"Salmon":
-	{
-		"Name":		"PACIFIC PINK SALMON",
-		"Description":	"<h1> The Pacific Pink Salmon is a highly energetic fish that swims upstream and remembers the exact location it was hatched. </h1> <h2><strong> Salmons use their sense of smell to detect predators, find food, and make their way back to their spawning grounds. However, research has shown that they lose this ability in acidified waters. </strong> </h2> <h2>Pteropods, a staple in Salmon’s diet, have a doomed existence in acidified waters. With just a 10% reduction in Pteropod numbers, Salmon could lose up to 20% of their mass. </h2> <h2> <strong> Salmon is also one of the most overfished species but is a key element in the Black Bear’s diet. </strong></h2>",
-		"Model":	"Models/Salmon.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-        "Scale":1,
-        "TriangleScale":0.002,
-        "ShowAnimal_CameraOffsetX": 1.04,
-		"ShowAnimal_CameraOffsetY": 0.02,
-		"ShowAnimal_CameraOffsetZ": 1.62,
-		"Animal_PhysicsDuration":35,
-        "ShareText": "Salmons use their sense of smell to detect predators, find food, and make their way back to their spawning grounds. In acidified waters that they lose this ability. They're also one of the most overfished species and a key element in the Black Bear's diet"
-
+		"Salmon":
+		{
+			"Name":		"鲑鱼",
+			"Description":	"<h1> 鲑鱼是最受欢迎和经济价值最高的食用鱼类之一，它们在世界各地的餐桌上都有一席之地。但是，由于各种原因，鲑鱼的数量正在迅速下降。</h1> <h2>这些原因包括过度捕捞、栖息地破坏、人类活动、气候变化以及水体污染。</h2> <h2>鲑鱼是一种“洄游鱼”，这意味着它们会在生命的不同阶段迁移到不同的地方。它们在淡水中孵化并度过初生时期，然后迁移到海洋生活数年，再返回河流产卵。但是，当这些鱼在迁徙过程中遭遇到堤坝、道路和其他障碍时，它们的迁徙路线就会被阻断。</h2> <h2> <strong>许多鲑鱼栖息地的丧失是由于城市化、道路建设、河流调整和森林伐木活动。</strong> 在加利福尼亚，80%以上的鲑鱼栖息地已经消失或受到严重破坏。</h2> <h2>气候变化也对鲑鱼产生了严重的影响。由于河流的温度上升，导致鲑鱼的繁殖和孵化环境发生变化，从而影响了它们的生存。</h2>",
+			"Model":	"Models/Salmon.ply",
+			"AfterYear":	1950,
+			"Categorys" : [ "Animal_", "Bigbang_" ],
+			"Scale":1,
+			"TriangleScale":0.0025,
+			"ShareText": "在加利福尼亚，80%以上的鲑鱼栖息地已经消失或受到严重破坏。气候变化、过度捕捞和栖息地破坏都对鲑鱼产生了严重的影响。"
+		}
 	},
 	"Cephalopod":
 	{
