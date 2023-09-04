@@ -35,537 +35,487 @@
 		"TriangleScale":0.0025,
 		"ShareText": "在加利福尼亚，80%以上的鲑鱼栖息地已经消失或受到严重破坏。气候变化、过度捕捞和栖息地破坏都对鲑鱼产生了严重的影响。"
 	},
-	"Cephalopod":
-	{
-		"Name":		"CEPHALOPODS",
-		"Description":	"<h1> Cephalopods are color blind but colour-changing creatures, that swim through black inked clouds. They have a highly inefficient metabolism, needing twice as much oxygen to go half as fast as similar sized fish. </h1> <h2> <strong> When environmental hypoxia – a lack of oxygen in the water – and water acidification pressures are high, a Cephalopod’s blood is unable to take in a sufficient quantity of oxygen from their gills, and death from asphyxiation occurs.</strong></h2> <h2> Environmental hypoxia will not only limit oxygen intake at the gills, but will also reduce the gradient necessary for cutaneous oxygen uptake. Hypoxia at the tissues may in turn result in an increase in venous pH, further reducing oxygen delivery to the tissues.</h2> <h2> <strong> Cephalopods are most susceptible to the triple threat of ocean warming, de-oxygenation, and acidification, leading to death from suffocation.</strong></h2>",
-		"Model":	"Models/Cephalopod.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_" ],
-		"Scale":1,
-        "TriangleScale":0.0028,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "When environmental hypoxia, a lack of oxygen in the water, and water acidification pressures are high, a Cephalopod's blood is unable to take in a sufficient quantity of oxygen from their gills, and death from asphyxiation occurs"
+	"Cephalopod": {
+        "Name": "头足类",
+        "Description": "<h1>头足类是色盲但能变色的生物，它们在黑色的墨云中游泳。它们的新陈代谢非常低效，需要的氧气量是同大小的鱼类的两倍，但速度只有后者的一半。</h1> <h2><strong>当环境缺氧 - 水中缺乏氧气 - 和水酸化压力增高时，头足类的血液无法从其鳃中摄取足够的氧气，从而导致窒息死亡。</strong></h2> <h2>环境性低氧不仅会限制在鳃处的氧气摄取，而且还会减少皮肤摄取氧气所需的梯度。组织处的低氧可能导致静脉pH值增加，进一步降低氧气传递到组织。</h2> <h2><strong>头足类对海洋变暖、缺氧和酸化的三重威胁最为敏感，导致窒息死亡。</strong></h2>",
+        "Model": "Models/Cephalopod.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_", "Bigbang_"],
+        "Scale": 1,
+        "TriangleScale": 0.0028,
+        "Animal_PhysicsDuration": 35,
+        "ShareText": "当环境缺氧、水中缺乏氧气和水酸化压力增高时，头足类的血液无法从其鳃中摄取足够的氧气，从而导致窒息死亡"
+    },
 
-	},
+    "Seagrass": {
+        "Name": "海草",
+        "Description": "<h1>海草是陆生植物，它们在1亿年前回归海洋，至今仍在水下继续产生花朵和种子。它们支持着世界上最具生产力的生态系统之一，为各种动物提供食物和庇护所。</h1> <h2>它们经常被忽视，但海草被誉为<strong>“海之肺”</strong>：一平方米的海草每天通过光合作用可以产生10升的氧气。</h2> <h2>每公顷，它们固定的二氧化碳量是雨林的两倍，每年可以吸收约2740万吨的CO2。</h2> <h2><strong>海草数量在下降，原因是富营养化 - 当水中富含有毒的营养物质，如磷酸盐和硝酸盐。其他导致它们减少的原因包括栖息地的机械破坏和过度捕捞。</strong></h2>",
+        "Model": "Models/Seagrass.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_"],
+        "Scale": 1,
+        "TriangleScale": 0.003,
+        "Animal_PhysicsDuration": 35,
+        "ShareText": "海草因富营养化而减少：当水中富含有毒的营养物质，如磷酸盐和硝酸盐。其他导致它们减少的原因包括栖息地的机械破坏和过度捕捞"
+    },
+	
+	"Oyster": {
+        "Name": "太平洋牡蛎",
+        "Description": "<h1>太平洋牡蛎具有大的、圆的、放射状的褶皱，通常非常粗糙和锋利。在许多文化中，它们被视为一种美味。</h1> <h2><strong>预计海洋酸化导致的许多生理变化将影响在生态系统中起到不成比例重要作用的物种或生物群。这包括像牡蛎这样的生态系统工程师，它们创建或修改各种海洋栖息地。这样的变化可能导致这些系统的组成、结构和功能的变化，最终影响提供给社会的商品和服务。</strong></h2> <h2>2005年至2009年间，由于幼虫和幼小的牡蛎在更酸性的水中难以生存，美国西北部的牡蛎种子产量下降了多达80%。</h2> <h2>一些牡蛎品种可以产生美丽的珍珠，但越来越酸的海水导致牡蛎壳削弱，这对于壳内形成的珍珠来说并不是好兆头。</h2>",
+        "Model": "Models/Oyster.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_", "Bigbang_"],
+        "Scale": 0.8,
+        "TriangleScale": 0.002,
+        "Animal_PhysicsDuration": 35,
+        "ShareText": "预计酸化将影响到牡蛎，它们在生态系统中起到不成比例的重要作用。这导致生态系统的组成、结构和功能发生变化，最终影响提供给社会的商品和服务"
+    },
 
-	"Seagrass":
-	{
-		"Name":		"SEAGRASS",
-		"Description":	"<h1> Seagrasses are terrestrial plants that moved back into the oceans 100 million years ago and continue to produce flowers and seeds underwater. And they support one of the most productive ecosystems in the world, providing food and shelter to an incredibly diverse community of animals.</h1> <h2>They often go unnoticed, but Seagrasses are known as the <strong>“lungs of the sea“</strong>: one square meter of Seagrass can generate 10 litres of oxygen daily through photosynthesis. </h2> <h2> Per hectare, they hold twice as much carbon dioxide as rain forests and can sequester about 27.4 million tons of CO2 annually. </h2> <h2> <strong> Seagrasses are in decline due to eutrophication – when waters get over-enriched with toxic nutrients like phosphates and nitrates. Other causes of their decline include the mechanical destruction of habitat and intense overfishing. </strong></h2>",
-		"Model":	"Models/Seagrass.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":1,
-        "TriangleScale":0.003,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Seagrasses are in decline due to eutrophication: when waters get over enriched with toxic nutrients like phosphates and nitrates. Other causes of their decline include the mechanical destruction of habitat and intense overfishing"
+    "Anemone": {
+        "Name": "海葵",
+        "Description": "<h1>海葵距离进化成为水母只有一步之遥。这些单个的多肉生物将自己固定在坚硬的表面上，捕食浮动在它们周围的物体。</h1> <h2>海葵从与它们共生的动物如虫黄藻和小丑鱼中获得额外的营养和氧气。但在酸化和更温暖的水中，这些伙伴面临着灭绝的危险。</h2> <h2><strong>研究发现，在低pH值的水中，海葵的新陈代谢率会增加，当低pH值和低氧结合时，它们会遇到新陈代谢抑制。</strong></h2>",
+        "Model": "Models/Anemone.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_"],
+        "Scale": 1,
+        "TriangleScale": 0.003,
+        "Animal_PhysicsDuration": 35,
+        "ShareText": "研究发现，在低pH值的水中，海葵的新陈代谢率增加，当低pH值和低氧结合时，它们会遇到新陈代谢抑制"
+    },
 
-	},
-
-	"Oyster":
-	{
-		"Name":		"PACIFIC OYSTERS",
-		"Description":	"<h1>The Pacific Oyster has large, rounded, radial folds, and are often extremely rough and sharp. They are seen as a delicacy in many cultures.</h1> <h2> <strong> Many of the physiological changes from ocean acidification are expected to affect species or groups of organisms that play a disproportionately important role in ecosystems. This includes ecosystem engineers, like Oysters, which create or modify various marine habitats. Such changes may lead to shifts in the composition, structure, and function of these systems, and ultimately affect the goods and services provided to society.</strong></h2> <h2> Between 2005 and 2009, Oyster seed production in Northwest America plummeted by as much as 80% as larvae and juvenile Oysters struggled to survive in more acidic waters. </h2> <h2> Some species of Oysters make beautiful pearls, but increasingly acidic seawater causes Oyster shells to weaken, which doesn't bode well for the pearls forming within.</h2>",
-		"Model":	"Models/Oyster.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_" ],
-		"Scale":0.8,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Acidification is expected to affect Oysters which play a disproportionately important role in ecosystems' habitats. This leads to shifts in the composition, structure and function of these systems, ultimately affecting goods and services provided to society"
-
-	},
-
-	"Anemone":
-	{
-		"Name":		"SEA ANEMONE",
-		"Description":	"<h1>Sea Anemones are one evolutionary step away from becoming Jellyfish. These single polyp creatures anchor themselves to hard surfaces, and prey on what floats around them. </h1> <h2> Sea Anemones get additional nourishment and oxygen from their co-living companions Zooxanthellae and Clownfish. But these companions are endangered in acidifying and warmer waters. </h2> <h2> <strong> Studies have found that in low pH levels Sea Anemones have an increased metabolism, and when low pH is combined with low oxygen, they encounter metabolic depression. </strong></h2>",
-		"Model":	"Models/Anemone.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_"],
-		"Scale":1,
-        "TriangleScale":0.003,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Studies have found that in low pH levels Sea Anemones have an increased metabolism, and when low pH is combined with low oxygen, they encounter metabolic depression"
-
-	},
-	"Larvae":
-	{
-		"Name":		"FISH LARVAE",
-		"Description":	"<h1> Fish Larvae are the future of the oceans.</h1> <h2>These small, vulnerable, newborn animals have been intimately studied by scientists to discover the secrets to early life in anthropogenic ocean conditions. </h2> <h2> Laboratory and field experiments have shown how ocean acidification and warming impede the development of fish, and how higher temperatures could increase their energy needs. </h2> <h2> <strong> When grown in water with the levels of CO2 predicted for the year 2100, fish larvae show considerable tissue damage, necrosis, and severe internal damage, resulting in a general decrease in survival rates.</strong> </h2> ",
-		"Model":	"Models/Larvae.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_"],
-		"Scale":1,
-        "TriangleScale":0.002,
-        "ShareText": "When grown in water with the levels of CO2 predicted for the year 2100, Fish Larvae show considerable tissue damage, necrosis, and severe internal damage, resulting in a general decrease in survival rates"
-
-	},
-	"Urchin":
-	{
-		"Name":		"SEA URCHIN",
-		"Description":	"<h1>  Considered a delicacy in many cultures, Sea Urchins are spiny, globular animals with self-sharpening teeth tucked beneath their bodies. And although they are sightless, they find their food through their senses of smell and hearing. </h1> <h2> <strong> Biologists have been studying how the lowering of pH levels and increasing acidification of the ocean affects these animals. They’ve discovered that these changes interfere with the Urchins’ ability to transform calcium, magnesium, and other minerals from seawater to grow their inner shell, spines and teeth. This leads to changes in their skeletal structures and problems with food digestion. </strong> </h2> <h2> Juveniles species of different kinds of Sea Urchins were exposed for 100 days to two treatments of pH: a pH of 8.0 and a pH of 7.6. The juveniles of a certain species, D. Africanum, were more predated from the acidic treatment than those kept in the control treatment.</h2> <h2> All juveniles species studied that were reared in a pH of 7.6 showed changes in the form of their skeletal structures.</h2>",
-		"Model":	"Models/Urchin.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":1,
-		"TriangleScale":0.002,
-		"Animal_PhysicsDuration":40,
-        "ShareText": "Ocean acidification interferes with Sea Urchins' ability to transform calcium, magnesium, and other minerals from seawater to grow their inner shell, spines and teeth. This leads to changes in skeletal structures and problems with food digestion"
-
-	},
-	"Cockle":
-	{
-		"Name":		"COCKLE",
-		"Description":	"<h1> Cockles, nestled within a heart shaped shell, are – surprisingly – able to jump in the sandy beaches they live in. These marine bivalve molluscs feed by filtering Plankton from the surrounding waters. In doing this, they play an important role in the marine food web by making sure Phytoplankton can’t bloom or become too abundant.</h1> <h2> When CO2 is absorbed by seawater, chemical reactions occur that reduce seawater pH, carbonate ion concentration, and the saturation states of biologically important calcium carbonate minerals. These last minerals are the building blocks of Aragonite, which is the mineral that Cockle's shells are made of. </h2> <h2> <strong> Healthy Aragonite saturation state should sit between 3 and 4Ω, but around the world it has already fallen by 1Ω. If it continues to fall to below 1Ω, all skeletons and shells will start dissolving. </strong></h2> <h2> Under the current progression of carbon emissions, around 70% of North Atlantic cold-water skeletons and shells will be living in corrosive waters by around 2050-60, within the next 40 years.</h2>",
-		"Model":	"Models/Cockle.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_" ],
-		"Scale":0.6,
-        "TriangleScale":0.0015,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Healthy Aragonite saturation state should sit between 3 and 4, but around the world it has already fallen by 1. If it continues to fall to below 1, all skeletons and shells will start dissolving"
-
-	},
-	"AlgalBloom":
-	{
-		"Name":		"HARMFUL ALGAL BLOOM",
-		"Description":	"<h1> Harmful Algal Bloom (HAB) contains organisms that can severely lower oxygen levels in natural waters, killing marine life. Often associated with algae-produced toxins, blooms can last from a few days to many months. </h1> <h2> <strong>With increased nutrient pollution and ocean warming, Cyanobacteria, a photosynthetic bacteria causing a type of HAB, can bloom uncontrolled, then die and decompose. The bacterial degradation of their biomass consumes the oxygen in the water, thereby creating the state of hypoxia where there is low or no oxygen dissolved in the water: a Dead Zone. </strong> </h2> <h2> Ocean dead zones with zero oxygen have quadrupled in size since 1950, with more than 500 in existence today and expanding with warmer waters.</h2>",
-		"Model":	"Models/AlgalBloom.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_"],
-		"Scale":0.4,
-        "TriangleScale":0.0015,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "With pollution and warming, Cyanobacteria, a photosynthetic bacteria causing some Harmful Algal Bloom, can bloom uncontrolled, die and decompose. Its decomposition consumes oxygen in the water, creating a state of low/no oxygen dissolved: a Dead Zone"
-
-	},
-	"Pollock":
-	{
-		"Name":		"WALLEYE POLLOCK",
-		"Description":	"<h1> The Walleye Pollock is a species of cod of the Bering Sea, famous for their well developed drumming muscles used to produce sounds during courtship. </h1> <h2> More than 3 billion pounds of Walleye Pollock are caught annually in North America, making them very important to the region’s economy. As a result, they were among the first to be studied in high-CO2 water. </h2> <h2> <strong> The Pollock's ability to detect predators and prey highly decreases in more acidic waters. When young Pollock are exposed to high levels of carbon dioxide and introduced to the scent of what they eat, some even struggle to recognise their food.</strong></h2>",
-		"Model":	"Models/Pollock.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_","Bigbang_"  ],
-		"Scale":1.2,
-        "TriangleScale":0.002,
+    "Larvae": {
+        "Name": "鱼幼虫",
+        "Description": "<h1>鱼幼虫是海洋的未来。</h1> <h2>这些小而脆弱的新生动物已经被科学家深入研究，以探索人为海洋条件下的早期生命的秘密。</h2> <h2>实验室和田间实验已经显示，海洋酸化和暖化如何妨碍鱼的发育，以及更高的温度如何增加它们的能量需求。</h2> <h2><strong>当在预测2100年的CO2水平中生长时，鱼幼虫显示出严重的组织损伤、坏死和严重的内部损伤，导致生存率普遍下降。</strong></h2>",
+        "Model": "Models/Larvae.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_"],
+        "Scale": 1,
+        "TriangleScale": 0.002,
+        "ShareText": "在预测2100年的CO2水平的水中生长，鱼幼虫显示出严重的组织损伤、坏死和严重的内部损伤，导致生存率普遍下降"
+    },
+	
+	"Urchin": {
+        "Name": "海胆",
+        "Description": "<h1>在许多文化中，海胆被视为一种美味。它们是带刺的、球状的动物，具有自我磨尖的牙齿隐藏在它们的身体下。尽管它们没有视力，但通过嗅觉和听觉找到食物。</h1> <h2><strong>生物学家一直在研究pH值降低和海洋酸化是如何影响这些动物的。他们发现这些变化干扰了海胆从海水中转化钙、镁和其他矿物质来生长其内壳、刺和牙齿的能力。这导致它们的骨架结构发生变化和食物消化问题。</strong></h2> <h2>各种海胆的幼体在100天内暴露于两种pH处理：pH值为8.0和pH值为7.6。某种物种，D. Africanum的幼体在酸性处理中比在对照处理中被捕食得更多。</h2> <h2>所有在pH值为7.6的水中养殖的幼体物种都显示出其骨架结构的形态发生了变化。</h2>",
+        "Model": "Models/Urchin.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_"],
+        "Scale": 1,
+        "TriangleScale": 0.002,
+        "Animal_PhysicsDuration": 40,
+        "ShareText": "海洋酸化干扰海胆从海水中转化钙、镁和其他矿物质来生长其内壳、刺和牙齿的能力。这导致骨架结构的变化和食物消化的问题"
+    },
+    
+    "Cockle": {
+        "Name": "蛤蜊",
+        "Description": "<h1>蛤蜊隐藏在心形的壳中，令人惊讶的是，它们能在它们生活的沙滩上跳跃。这些海洋双壳类软体动物通过过滤周围水中的浮游生物来获取食物。这样做的时候，它们在海洋食物网中起着重要的作用，确保浮游植物不能过度繁殖或变得过于丰富。</h1> <h2>当CO2被海水吸收时，会发生化学反应，降低海水的pH值、碳酸盐离子浓度和生物学上重要的碳酸盐矿物的饱和状态。这些矿物是Aragonite的构建块，而Aragonite是蛤蜊的壳所由制成的矿物。</h2> <h2><strong>健康的Aragonite饱和状态应该介于3和4Ω之间，但全球已经下降了1Ω。如果它继续下降到低于1Ω，所有的骨骼和壳将开始溶解。</strong></h2> <h2>按照当前的碳排放进程，到2050-60年左右，约70%的北大西洋冷水骨骼和壳将生活在腐蚀性水域，也就是在接下来的40年内。</h2>",
+        "Model": "Models/Cockle.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_", "Bigbang_"],
+        "Scale": 0.6,
+        "TriangleScale": 0.0015,
+        "Animal_PhysicsDuration": 35,
+        "ShareText": "健康的Aragonite饱和状态应该介于3和4之间，但全球已经下降了1。如果它继续下降到低于1，所有的骨骼和壳将开始溶解"
+    },
+    
+    "AlgalBloom": {
+        "Name": "有害藻华",
+        "Description": "<h1>有害藻华(HAB)包含的有机体可以严重降低自然水体中的氧气含量，杀死海洋生物。与藻类产生的毒素有关，华可以持续从几天到几个月。</h1> <h2><strong>随着营养物污染的增加和海洋变暖，产生某种HAB的光合细菌，蓝细菌，可以无控制地盛开，然后死亡并分解。它们的生物量的细菌分解消耗了水中的氧气，从而产生低氧或无氧溶解的状态：死区。</strong></h2> <h2>自1950年以来，零氧的海洋死区已经增长了四倍，现在有超过500个，并且随着海水变暖而扩张。</h2>",
+        "Model": "Models/AlgalBloom.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_"],
+        "Scale": 0.4,
+        "TriangleScale": 0.0015,
+        "Animal_PhysicsDuration": 35,
+        "ShareText": "由于污染和变暖，光合作用的细菌，蓝细菌，导致某些有害藻华可以无控制地盛开，死亡并分解。其分解消耗水中的氧气，形成低/无氧溶解的状态：死区"
+    },
+    "Pollock": {
+        "Name": "真鳕",
+        "Description": "<h1>真鳕是白令海的一种鳕鱼，因其发达的鼓肌而著称，这些鼓肌在求爱时用来发出声音。</h1> <h2>每年在北美捕获的真鳕超过30亿磅，对该地区的经济至关重要。因此，它们是最早在高CO2水中进行研究的物种之一。</h2> <h2><strong>在更酸性的水中，真鳕检测捕食者和猎物的能力大大降低。当幼年真鳕暴露在高浓度的二氧化碳下并介绍给它们的食物的气味时，有些甚至难以识别它们的食物。</strong></h2>",
+        "Model": "Models/Pollock.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_", "Bigbang_"],
+        "Scale": 1.2,
+        "TriangleScale": 0.002,
         "ShowAnimal_CameraOffsetX": 0.74,
-		"ShowAnimal_CameraOffsetY": 0.02,
-		"ShowAnimal_CameraOffsetZ": 2.18,
-		"Animal_PhysicsDuration":35,
-        "ShareText": "The Pollock's ability to detect predators and prey highly decreases in more acidic waters. When young Pollock are exposed to high levels of carbon dioxide and introduced to the scent of what they eat, some even struggle to recognise their food"
-	},
-	"Krill":
-	{
-		"Name":		"ANTARCTIC KRILL",
-		"Description":	"<h1>The Antarctic Krill live in dense swarms in the Antarctic waters of the Southern Ocean. These tiny creatures are likely the most abundant species on the planet, with around 400 trillion individuals. </h1> <h2> They may be small, but Krill are vital for our ecosystems. They form the base of the food chain in the Southern Ocean – helping sustain animals such as Penguins, Whales, and Seals. Through their feeding habits they have performed an essential role for around 1,000 years: through their feeding habits they help with carbon dioxide sinking, whereby they export large quantities of CO2 from the biosphere to the deepest parts of the Antarctic. </h2> <h2> <strong> The Krill’s exoskeleton, which contains carbonate, is susceptible to dissolution under the low pH conditions that occur in more acidified ocean waters. Studies show that increased carbon dioxide can disrupt the development of Krill eggs and even prevent the juvenile Krill from hatching, leading to a widespread decrease in Krill hatching success in the future. </strong> </h2> <h2> Krill need the Antarctic’s pack ice structures to have a fair chance of survival, especially in the early stages of their development. But the reduction of the pack ice zone due to global warming is one of the causes of their decline in numbers. </h2>",
-		"Model":	"Models/Krill.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_" ],
-		"Scale":0.8,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":40,
-        "ShareText": "Krill's exoskeleton, which contains carbonate, is susceptible to dissolution under the low pH conditions that occur in more acidified ocean waters. Studies show that increased carbon dioxide can disrupt the development of Krill eggs and hatching success"
+        "ShowAnimal_CameraOffsetY": 0.02,
+        "ShowAnimal_CameraOffsetZ": 2.18,
+        "Animal_PhysicsDuration": 35,
+        "ShareText": "在更酸性的水中，真鳕检测捕食者和猎物的能力大大降低。当幼年真鳕暴露在高浓度的二氧化碳下并介绍给它们的食物的气味时，有些甚至难以识别它们的食物。"
+    },
+    "Krill": {
+        "Name": "南极磷虾",
+        "Description": "<h1>南极磷虾生活在南极南洋的密集鱼群中。这些微小的生物可能是地球上数量最多的物种，大约有400万亿个个体。</h1> <h2>它们虽然很小，但对我们的生态系统至关重要。它们构成了南极食物链的基础 - 帮助维持企鹅、鲸鱼和海豹等动物。通过它们的取食习惯，它们已经发挥了大约1000年的基本角色：通过它们的取食习惯，它们帮助碳排放，从而将大量的CO2从生物圈输出到南极的最深处。</h2> <h2><strong>磷虾的外骨骼，含有碳酸盐，容易在更酸性的海水中的低pH条件下溶解。研究表明，增加的二氧化碳可以破坏磷虾卵的发育，甚至阻止幼年磷虾孵化，导致未来磷虾孵化成功率普遍下降。</strong></h2> <h2>磷虾需要南极的浮冰结构才有生存的公平机会，尤其是在它们发育的早期阶段。但由于全球变暖导致浮冰区域减少，这是它们数量减少的原因之一。</h2>",
+        "Model": "Models/Krill.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_", "Bigbang_"],
+        "Scale": 0.8,
+        "TriangleScale": 0.002,
+        "Animal_PhysicsDuration": 40,
+        "ShareText": "磷虾的外骨骼，含有碳酸盐，容易在更酸性的海水中的低pH条件下溶解。研究表明，增加的二氧化碳可以破坏磷虾卵的发育，甚至阻止幼年磷虾孵化。"
+    },
+    "CorallineAlgae": {
+        "Name": "珊瑚藻",
+        "Description": "<h1>和珊瑚礁本身一样，珊瑚藻为珊瑚礁带来生命。这些是带有坚硬、钙化组织的红藻，为其他无脊椎动物如海胆提供栖息地。它们还通过向其结构添加钙质材料来帮助珊瑚礁粘合在一起。</h1> <h2>大多数珊瑚藻种类都使用高镁钙质形式的碳酸钙构建壳，这比方解石或普通钙质形式更易溶解。</h2> <h2><strong>在实地实验中，发现在低pH条件下的钙化速率分别是正常条件下的130% （25-26°C）和190% （28-29°C）。</strong></h2> <h2><strong>在实验室研究中发现，建造礁的壳状珊瑚藻的钙化速度会慢达50%。</strong></h2> <h2><strong>已发现珊瑚藻的覆盖率与pH值高度相关，在pH值7.8以下迅速减少，在pH值7.0时消失；在实验室实验中，珊瑚藻在pH值7.0下两周后完全溶解。</strong></h2> <h2>研究已经显示，在酸化条件下，珊瑚藻覆盖的面积减少了92%，为其他类型的非钙化藻类腾出了空间，这些藻类可以淹没和损坏珊瑚礁。但这种影响是负面的，因为许多珊瑚幼虫在准备离开浮游生物阶段并开始在珊瑚礁上生活时，更喜欢定植在珊瑚藻上。</h2>",
+        "Model": "Models/CorallineAlgae.ply",
+        "AfterYear": 1860,
+        "Categorys": ["Animal_"],
+        "Scale": 0.6,
+        "TriangleScale": 0.002,
+        "Animal_PhysicsDuration": 35,
+        "ShareText": "已发现珊瑚藻的覆盖率与pH值高度相关，在pH值7.8以下迅速减少，在pH值7.0时消失；在实验室实验中，它们在pH值7.0下两周后完全溶解。"
+    },
 
-	},
-	"CorallineAlgae":
-	{
-		"Name":		"CORALLINE ALGAE",
-		"Description":	"<h1> Like Coral reefs themselves, Coralline Algae help bring life to the reef. These are red algae with a hard, calcifying tissue, that provide habitat for other invertebrates such as Sea Urchins. They also help cement the Coral reef together by adding calcareous material to its structure. </h1> <h2> Most Coralline Algae species build shells from the high-magnesium calcite form of calcium carbonate, which is more soluble than Aragonite or regular calcite forms.</h2> <h2> <strong>  In field experiments it was discovered that calcification rates in low pH conditions is 130% less (25-26°C) and 190% less (28-29°C) than in normal conditions. Several laboratory studies indicate that reefbuilding crustose Coralline Algae will calcify up to 50% more slowly. </strong> </h2> <h2> <strong>  Coralline Algal cover has been found to be highly correlated with pH, decreasing rapidly below a pH of 7.8 and absent at a pH of 7.0; in lab experiments, Coralline Algae completely dissolve after two weeks at a pH of 7.0. </strong> </h2> <h2> Studies have shown that in acidifying conditions Coralline Algae cover 92% less area, making space for other types of non-calcifying algae which can smother and damage Coral reefs. But this has negative impacts, as many Coral larvae prefer to settle onto Coralline Algae when they are ready to leave the plankton stage and start life on a Coral reef.</h2>",
-		"Model":	"Models/CorallineAlgae.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_"],
-		"Scale":0.6,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Coralline Algae's cover has been found to be highly correlated with pH, decreasing rapidly below a pH of 7.8 and absent at a pH of 7.0; in lab experiments, they completely dissolve after two weeks at a pH of 7.0"
-
-	},
 	"Nodularia":
 	{
-		"Name":		"NODULARIA SPUMIGENA",
-		"Description":	"<h1>Despite its unfamiliar name, Nodularia Spumigena, a nitrogen-fixing cyanobacteria, plays an important role in our oceans. It converts key compounds into ones that are more easily consumable by other microorganisms. </h1> <h2> Nitrogen helps build the structures and molecules we need to survive. The few organisms that can use nitrogen, such as bacterias like Nodularia Spumigena, help it change between states so it can be used as food by other organisms. This vitally important process is called Nitrogen Fixation.</h2> <h2> When these organisms later die and decompose, they also release these chemicals back into the environment so that they can be used again, and again, and again. And the cycle continues. </h2> <h2> <strong>Recent studies show that ocean acidification has the potential to alter the marine nitrogen cycle which controls much of primary production in the sea. And the fertilisers and pollution created by humans have overwhelmed the cycle with extra nitrogen, depleting the oceans of oxygen. </strong></h2> <h2> When immersed in the low pH conditions expected by 2100, of around 7.6 pH, Nodularia Spumigena shows a reduced growth rate and reduced nitrogen fixation rate.</h2>",
-		"Model":	"Models/Nodularia.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":0.6,
-        "TriangleScale":0.0009,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Ocean acidification has the potential to alter the marine nitrogen cycle which controls much of primary production in the sea. Fertilisers and pollution have overwhelmed the cycle with extra nitrogen, depleting the oceans of oxygen"
-
+		"Name": "NODULARIA SPUMIGENA",
+		"Description": "<h1>尽管其名称不熟悉，Nodularia Spumigena，一种固氮蓝细菌，在我们的海洋中扮演着重要的角色。它将关键化合物转化为其他微生物更容易消耗的形式。</h1> <h2>氮帮助我们构建生存所需的结构和分子。少数可以使用氮的生物体，如Nodularia Spumigena这样的细菌，帮助其改变状态，以便其他生物体可以食用。这一至关重要的过程称为氮固定。</h2> <h2>当这些生物体后来死亡和分解时，它们也将这些化学物质释放回环境中，以便它们可以反复使用。循环继续。</h2> <h2><strong>最近的研究表明，海洋酸化有可能改变控制海洋大部分初级生产的海洋氮循环。人为制造的化肥和污染使这个循环中多余的氮，耗尽了海洋的氧气。</strong></h2> <h2>在预计到2100年的低pH条件下，大约7.6的pH，Nodularia Spumigena显示出减少的生长率和减少的氮固定率。</h2>",
+		"Model": "Models/Nodularia.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 0.6,
+		"TriangleScale": 0.0009,
+		"Animal_PhysicsDuration": 35,
+		"ShareText": "海洋酸化有可能改变控制海洋大部分初级生产的海洋氮循环。化肥和污染使这个循环中多余的氮，耗尽了海洋的氧气"
 	},
 	"Kelp":
 	{
-		"Name":		"KELP FOREST",
-		"Description":	"<h1> The Kelp Forest is a rootless seaweed forest that anchors to rocks, recognised as one of the most reproductive and dynamic ecosystems on Earth. </h1> <h2> <strong> Kelp requires cold water for growth, and elevated seawater temperatures from global warming are a major threat to Kelp forest survival. Similarly, strong individual storms can wipe out large areas of Kelp forest by ripping the plants from the seafloor. </strong> </h2><h2>Overfishing and hunting create imbalances in the animal population and affect the whole ecosystem. <h2> </h2> <h2>Pollution in the form of sewage, industrial waste, inorganic fertilisers, and pesticides carried from freshwater runoff can impair Kelp growth and reproduction.</h2>",
-		"Model":	"Models/Kelp.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":1,
-        "TriangleScale":0.0033,
-        "Animal_PhysicsDuration":40,
-        "ShareText": "Kelp requires cold water for growth, and elevated seawater temperatures from global warming are a major threat to Kelp forest survival. Similarly, strong individual storms can wipe out large areas of Kelp forest by ripping the plants from the seafloor"
-
+		"Name": "海带森林",
+		"Description": "<h1>海带森林是一种不用根系的海带森林，它锚定在岩石上，被认为是地球上最具有生产力和动态性的生态系统之一。</h1> <h2><strong>海带需要冷水生长，全球变暖引起的海水温度上升对海带森林的生存构成了重大威胁。同样，强烈的单个风暴可以通过将植物从海底撕裂来消灭大片的海带森林。</strong></h2><h2>过度捕捞和狩猎导致动物种群失衡，影响整个生态系统。<h2> </h2><h2>污水，工业废物，无机化肥和从淡水径流中带来的农药污染可以损害海带的生长和繁殖。</h2>",
+		"Model": "Models/Kelp.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 1,
+		"TriangleScale": 0.0033,
+		"Animal_PhysicsDuration": 40,
+		"ShareText": "海带需要冷水生长，全球变暖引起的海水温度上升对海带森林的生存构成了重大威胁。同样，强烈的单个风暴可以通过将植物从海底撕裂来消灭大片的海带森林"
 	},
 	"DeepSeaCrab":
 	{
-		"Name":		"DEEP SEA CRAB",
-		"Description":	"<h1>The Deep Sea Crab: unlike their beach dweller brothers that scuttle across sandy shores, they live in the deeper parts of the oceans, usually from around 200 meters. </h1> <h2> <strong>Research has shown that Deep Sea Crabs are much less able to recover from short term exposure to very high CO2 than shallow dwelling crabs. </strong> </h2> <h2> <strong>  The waters of the deep sea are naturally more acidic because of the accumulation of carbon dioxide from the respiration of other deep sea organisms. Adding anthropogenic CO2 into the deep sea will make these waters even more acidic. </strong> </h2> <h2> Studies have also found that these negative effects are amplified at low oxygen concentrations. </h2>",
-		"Model":	"Models/DeepSeaCrab.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":0.8,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Deep sea waters are more acidic because of the accumulation of CO2 from the respiration of other deep sea organisms. Adding anthropogenic CO2 makes these waters even more acidic. Deep Sea Crabs don't recover well from short term exposure to very high CO2"
-
+		"Name": "深海蟹",
+		"Description": "<h1>深海蟹：与那些在沙滩上爬行的海滩居民兄弟不同，它们生活在海洋的更深部分，通常从大约200米开始。</h1> <h2><strong>研究表明，与浅居蟹相比，深海蟹在短时间内暴露于非常高的CO2下的恢复能力要差得多。</strong></h2> <h2><strong>由于其他深海生物的呼吸而累积的二氧化碳，深海的水自然更为酸性。将人为的CO2加入深海将使这些水变得更加酸性。</strong></h2> <h2>研究还发现在低氧浓度下，这些负面效应会放大。</h2>",
+		"Model": "Models/DeepSeaCrab.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 0.8,
+		"TriangleScale": 0.002,
+		"Animal_PhysicsDuration": 35,
+		"ShareText": "深海水因其他深海生物的呼吸而积累的CO2更为酸性。将人为的CO2加入这些水使其变得更加酸性。深海蟹对短时间内暴露于非常高的CO2的恢复能力不佳"
 	},
-	"Shark":
-	{
-		"Name":		"SHARK",
-		"Description":	"<h1> Sharks are one of the most well-known predators on the planet. They live at the top of the food chain in almost every part of the ocean, and have a special skin that protects them from damage and improves their fluid dynamics.</h1> <h2>Despite what's commonly thought, humans are a greater threat to Sharks than Sharks are to us: in 2018 there were only four fatal attacks to humans globally, whereas 100 million Sharks are killed by humans each year. </h2> <h2> <strong>Elevated temperatures and increased levels of CO2 have detrimental effects on Sharks. Not only do these conditions increase energetic demands, but they also decrease metabolic efficiency, reducing their ability to locate food, through olfaction, and leading to considerable reductions in growth rates.</strong></h2> <h2> <strong> Sharks in high CO2 conditions have been shown to avoid the food odour stream, spending less than 15% of their time there. In a recent study, the survival of hatched Shark embryos declined by up to 44% for those exposed to the warming and acidification conditions that are expected by 2100. </strong> </h2>",
-		"Model":	"Models/Shark.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_"],
-		"Scale":0.8,
-        "TriangleScale":0.002,
-        "ShowAnimal_CameraOffsetX": 0.96,
+	
+	"Shark": {
+		"Name": "鲨鱼",
+		"Description": "<h1> 鲨鱼是地球上最著名的捕食者之一。他们生活在几乎每一个海洋的食物链的顶端，并有一种特殊的皮肤，可以保护他们免受损伤并改善他们的流体动力学。</h1> <h2>尽管人们普遍认为，人类对鲨鱼的威胁大于鲨鱼对我们的威胁：在2018年，全球只有四起对人类的致命攻击，而每年有1亿只鲨鱼被人类杀害。 </h2> <h2> <strong>升高的温度和二氧化碳的增加对鲨鱼有害。这些条件不仅增加了能量需求，还降低了新陈代谢效率，减少了它们通过嗅觉寻找食物的能力，并导致生长速度大大降低。</strong></h2> <h2> <strong>在高二氧化碳条件下的鲨鱼已被证明会避开食物气味流，只在那里花费不到15%的时间。在最近的一项研究中，孵化的鲨鱼胚胎的存活率下降了高达44%，这些鲨鱼曝露于预计到2100年的升温和酸化条件。</strong> </h2>",
+		"Model": "Models/Shark.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_", "Bigbang_"],
+		"Scale": 0.8,
+		"TriangleScale": 0.002,
+		"ShowAnimal_CameraOffsetX": 0.96,
 		"ShowAnimal_CameraOffsetY": 0.02,
 		"ShowAnimal_CameraOffsetZ": 1.92,
-		"Animal_PhysicsDuration":30,
-        "ShareText": "Warming and acidification harms Sharks by increasing energetic demands, decreasing metabolic efficiency, reducing their ability to locate food and growth rates. The survival of hatched Shark embryos declines by up to 44%25 in low pH waters"
-
-	},
-
-		"Clownfish":
-	{
-		"Name":		"CLOWNFISH",
-		"Description":	"<h1> The Clownfish somewhat lives up to its name, with its display of bright colours and striking patterns.</h1> <h2>They mostly live in reefs – for example the Coral reef, which are dying due to rising water temperatures – and in a state of symbiotic mutualism with the stinging Sea Anemone.  </h2> <h2> <strong> If the Sea Anemone doesn't protect the Clownfish from predators, the fish sometimes still manage to avoid them thanks to their hearing. In slightly more acidic waters, though, researchers have found that Clownfish appear to lose their hearing, and so they do not flee threatening noise. </strong> </h2> <h2> <strong>  These fish also rely on their sense of smell. But this too is affected by acidic waters: they have trouble smelling their way back home and can become fatally attracted to the scent of predators. </strong> </h2>",
-		"Model":	"Models/ClownFish.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_"],
-		"Scale":0.6,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":40,
-        "ShareText": "Research has found that Clownfish loses hearing in slightly more acidic waters, not fleeing threatening noise. Also their sense of smell is affected: they have trouble smelling their way back home and can become fatally attracted to the scent of predators"
-
-	},
-
-	"Cobia":
-	{
-		"Name":		"COBIA",
-		"Description":	"<h1> The Cobia is a curious, solitary fish with large pectoral fins that give it the appearance of a shark.</h1> <h2>While it lacks the swim bladder, which helps a fish float, it grows large Otoliths: small ear bones that affect hearing and balance. </h2> <h2> <strong> Acidic waters negatively affect these bones, especially in larvae, which likely alters their ability to detect sound and could impair the ability of the animal to navigate and avoid prey. </strong> </h2> <h2> While there is still a lot to learn, these findings suggest that we may see unpredictable changes in animal behavior under acidification.</h2>",
-		"Model":	"Models/Cobia.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" , "Bigbang_"],
-		"Scale":1,
-        "TriangleScale":0.002,
-        "ShowAnimal_CameraOffsetX": 0.48,
+		"Animal_PhysicsDuration": 30,
+		"ShareText": "升温和酸化通过增加能量需求，减少新陈代谢效率，减少它们寻找食物的能力和生长速度来伤害鲨鱼。孵化的鲨鱼胚胎在低pH的水中的存活率下降了高达44%。"
+	  },
+	
+	  "Clownfish": {
+		"Name": "小丑鱼",
+		"Description": "<h1> 小丑鱼在某种程度上与其名字相符，其鲜亮的颜色和引人注目的图案。</h1> <h2>它们大部分生活在珊瑚礁中 - 例如由于水温上升而正在死亡的珊瑚礁 - 与有毒的海葵共生。 </h2> <h2> <strong>如果海葵不保护小丑鱼免受捕食者的伤害，由于它们的听力，鱼有时仍然能够避免它们。然而，在稍微酸性的水中，研究人员发现小丑鱼似乎失去了听力，因此他们不逃避威胁性的噪音。</strong> </h2> <h2> <strong>这些鱼也依赖于他们的嗅觉。但这也受到酸性水的影响：他们回家的时候有麻烦，可能会被捕食者的气味致命地吸引。</strong> </h2>",
+		"Model": "Models/ClownFish.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_", "Bigbang_"],
+		"Scale": 0.6,
+		"TriangleScale": 0.002,
+		"Animal_PhysicsDuration": 40,
+		"ShareText": "研究发现，小丑鱼在稍微酸性的水中失去听力，不逃避威胁性的噪音。同时，他们的嗅觉也受到影响：他们回家时遇到麻烦，并可能被捕食者的气味致命地吸引。"
+	  },
+	
+	  "Cobia": {
+		"Name": "黑鲈鱼",
+		"Description": "<h1> 黑鲈鱼是一种好奇的，孤独的鱼，有大的胸鳍，使其看起来像鲨鱼。</h1> <h2>虽然它没有有助于鱼类漂浮的鱼鳔，但它生长大的耳骨：影响听力和平衡的小耳骨。</h2> <h2> <strong>酸性水对这些骨头产生负面影响，特别是在幼虫中，这可能会改变它们检测声音的能力，并可能损害动物导航和避免猎物的能力。</strong> </h2> <h2>尽管还有很多要学习，但这些发现表明我们可能会看到在酸化下动物行为的不可预测的变化。</h2>",
+		"Model": "Models/Cobia.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_", "Bigbang_"],
+		"Scale": 1,
+		"TriangleScale": 0.002,
+		"ShowAnimal_CameraOffsetX": 0.48,
 		"ShowAnimal_CameraOffsetY": 0.02,
 		"ShowAnimal_CameraOffsetZ": 2.18,
-		"Animal_PhysicsDuration":35,
-        "ShareText": "Cobia grows large Otoliths: small ear bones that affect hearing and balance. Acidic waters negatively affect them, especially in larvae, likely altering their ability to detect sound and impairing the ability of the animal to navigate and avoid prey"
+		"Animal_PhysicsDuration": 35,
+		"ShareText": "黑鲈鱼生长大的耳骨：影响听力和平衡的小耳骨。酸性水对它们产生负面影响，特别是在幼虫中，可能改变它们检测声音的能力并损害动物的导航和避免猎物的能力。"
+	  },
+	
+	  "DeepSeaCoral": {
+		"Name": "深海珊瑚",
+		"Description": "<h1> 深海珊瑚，也称为冷水珊瑚，延伸到海洋更深、更黑暗的部分，范围从水面到深渊。</h1> <h2>与热带珊瑚一样，它们是基于钙碳酸盐的积累，并为一系列的生物提供栖息地，包括商业重要的鱼类。</h2> <h2>预期的Aragonite饱和水平上升，许多这样的社区可能会暴露于对珊瑚骨骼有腐蚀性的水中。</h2> <h2> <strong>在较低的pH水平下，冷水种类Lophelia Pertusa的钙化速率平均下降30-56%。</strong> </h2> <h2>在深海引入人为的二氧化碳将使这些本来就是酸性的水变得更酸。</h2>",
+		"Model": "Models/DeepSeaCoral.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 1,
+		"TriangleScale": 0.002,
+		"Animal_PhysicsDuration": 35,
+		"ShareText": "在较低的pH水平下，冷水种类Lophelia Pertusa（深海珊瑚）的钙化速率平均下降了30-56%。"
+	  },
 
+	  "BubblegumCoral": {
+		"Name": "泡泡糖珊瑚",
+		"Description": "<h1>泡泡糖珊瑚经常在深海中建造五颜六色、有疙瘩的结构，他们几乎在热带以外的任何地方都感到舒适 - 在那里他们可以生长在200到1300米深的水域。</h1> <h2>深海珊瑚受到多种因素的损害：深水拖网、长线钓鱼和油气勘探。</h2> <h2><strong>就像Aragonitic珊瑚一样，泡泡糖珊瑚很可能受到与深度相关的calcite饱和度变化的影响 - 即使在最深的水域，也无法逃脱酸化。</strong></h2>",
+		"Model": "Models/BubbleGumCoral.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 0.6,
+		"TriangleScale": 0.002,
+		"Animal_PhysicsDuration": 30,
+		"ShareText": "就像Aragonitic珊瑚一样，泡泡糖珊瑚很可能受到与深度相关的calcite饱和度变化的影响。即使在最深的水域，也无法逃脱酸化"
 	},
 	
-	"DeepSeaCoral":
-	{
-		"Name":		"DEEP SEA CORAL",
-		"Description":	"<h1> Deep Sea Corals, also known as cold-water corals, extend to deeper, darker parts of the oceans, ranging from near the surface, to the abyss.</h1> <h2> Like tropical Corals, they are founded on the accumulation of calcium carbonate, and provide habitat to a range of organisms, including commercially important fish species.</h2> <h2>With expected shoaling of the Aragonite saturation horizon, many of these communities may become exposed to waters corrosive to Coral skeletons.</h2> <h2> <strong> In lower pH levels, the calcification rates in the cold water species Lophelia Pertusa are reduced by an average of 30-56%. </strong> </h2> <h2>The introduction of anthropogenic carbon dioxide in the deep sea will make these naturally acidic waters even more acidic.</h2>",
-		"Model":	"Models/DeepSeaCoral.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-        "Scale":1,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "In lower pH levels, the calcification rates in the cold water species Lophelia Pertusa (Deep Sea Coral) are reduced by an average of 30-56%25"
-
+	"Lobster": {
+		"Name": "美国龙虾",
+		"Description": "<h1>龙虾是大型甲壳纲动物，凭借其长而肌肉发达的身体和前爪，它们可以活到50岁 - 如果不受干扰的话。</h1> <h2><strong>对于美国龙虾，海洋酸化对幼龙的生长和外骨骼建造速率产生了毁灭性的影响。这尤其令人悲伤，因为它们每月脱皮一次，意味着它们的保护性外骨骼需要不断地重建。</strong></h2> <h2>酸化的负面影响也见于例如欧洲龙虾Homarus Gammarus的早期发育阶段。</h2> <h2>在较暖、更酸性的水中，已发现龙虾的呼吸和食量增加，而减少对繁殖和生长的能量。</h2>",
+		"Model": "Models/Lobster.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 1,
+		"TriangleScale": 0.002,
+		"Animal_PhysicsDuration": 30,
+		"ShareText": "对于美国龙虾，海洋酸化对幼龙的生长和外骨骼建造速率产生了毁灭性的影响。这尤其令人悲伤，因为它们每月脱皮一次，意味着它们的保护性外骨骼需要不断地重建"
 	},
-	"BubblegumCoral":
-	{
-		"Name":		"BUBBLE GUM CORAL",
-		"Description":	"<h1>Bubblegum Corals often build colourful, knobbly-armed structures deep in the oceans, and they appear comfortable nearly everywhere outside of the tropics – where they can grow in waters from 200 to 1300 metres deep. </h1> <h2>Deep-water Corals are damaged by a number of things: deep-water trawling, long line fishing, and oil and gas exploration. </h2> <h2> <strong> Like aragonitic Corals, Bubblegum Corals are likely to be affected by changes in calcite saturation with depth – even in the deepest waters there is no escape from acidification. </strong> </h2>",
-		"Model":	"Models/BubbleGumCoral.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":0.6,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":30,
-        "ShareText": "Like aragonitic Corals, Bubblegum Corals are likely to be affected by changes in calcite saturation with depth. Even in the deepest waters there is no escape from acidification"
-
+	
+	"JuvenileBivalve": {
+		"Name": "幼年双壳类",
+		"Description": "<h1>幼年双壳类是刚出生的、带壳的海洋动物。但是海洋酸化对这些微小的生物毫不留情。</h1> <h2>当谈到海洋酸化时，研究表明在许多双壳类物种的幼虫和幼年阶段，壳会溶解并且导致死亡。</h2> <h2><strong>当浸入pH值为7.6的水中，预计到2100年，这些壳在24小时内会大量溶解，并在两周内完全消失。</strong></h2> <h2>溶解是死亡的一个原因，特别是在河口和沿海栖息地，那里的条件很苛刻。</h2>",
+		"Model": "Models/JuvenileBivalve.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 0.5,
+		"TriangleScale": 0.0015,
+		"Animal_PhysicsDuration": 30,
+		"ShareText": "当浸入pH值为7.6的水中，预计到2100年，幼年双壳类的壳在24小时内会大量溶解，并在两周内完全消失"
 	},
-	"Lobster":
-	{
-		"Name":		"AMERICAN LOBSTER",
-		"Description":	"<h1> Lobsters are large crustaceans and with their long, muscly bodies and frontal claws, they can live up to 50 years – if left undisturbed.</h1> <h2> <strong> For the American Lobster, ocean acidification has been shown to have devastating effects on the growth and exoskeleton building rates of juveniles. This is particularly tragic as they moult once a month, meaning their protective exoskeleton constantly needs to be rebuilt. </strong> </h2> <h2> The negative effects of acidification have also been seen in the early development of species such as the European Lobster Homarus Gammarus.</h2> <h2> Measured traits included survival, metabolism, growth, activity and metamorphosis in either larvae/juveniles or adults. Survival and growth are sensitive to both low oxygen and low pH conditions and then when both occur at the same time. In warmer, more acidic water, Lobsters have been found to breath and eat more, while cutting energy on reproduction and growth.</h2>",
-		"Model":	"Models/Lobster.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-        "Scale":1,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":30,
-        "ShareText": "For the American Lobster, ocean acidification has devastating effects on the growth and exoskeleton building rates of juveniles. This is particularly tragic as they moult once a month, meaning their protective exoskeleton constantly needs to be rebuilt"
+	
+	"BlueCrab": {
+		"Name": "蓝帝王蟹",
+		"Description": "<h1>蓝帝王蟹是北太平洋帝王蟹的一种，常见于白令海，它们每两年只繁殖一次。</h1> <h2><strong>根据研究，当放置在预计到2100年的酸度水平的水中时，幼年蓝帝王蟹显示出形态变化，生长减缓，并且死亡率增加。</strong></h2> <h2>研究表明蓝帝王蟹可能能够改变其生理结构以适应低pH水。但是，考虑到它们当前的低种群水平，任何在低pH水平下的减少生存或生长都可能导致未来种群数量减少。</h2>",
+		"Model": "Models/BlueCrab.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 0.7,
+		"TriangleScale": 0.002,
+		"Animal_PhysicsDuration": 30,
+		"ShareText": "根据研究，当放置在预计到2100年的酸度水平的水中时，幼年蓝帝王蟹显示出形态变化，生长减缓，并且死亡率增加"
+	}, 
 
-	},
-	"JuvenileBivalve":
-	{
-		"Name":		"JUVENILE BIVALVE",
-		"Description":	"<h1> The Juvenile Bivalve are newly born, shelled marine animals. But ocean acidification has no mercy for these tiny creatures.</h1> <h2> When it comes to ocean acidification, research demonstrates shell dissolution and mortality during the larval and juvenile stages in a number of bivalve species. </h2> <h2> <strong> When immersed in waters of pH 7.6, which is expected by 2100, the shells experience massive dissolution within 24h and completely disappear in two weeks. </strong> </h2> <h2> Dissolution is a source of mortality, especially in estuaries and coastal habitats where conditions are harsh.</h2>",
-		"Model":	"Models/JuvenileBivalve.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":0.5,
-        "TriangleScale":0.0015,
-        "Animal_PhysicsDuration":30,
-        "ShareText": "When immersed in waters of pH 7.6, which is expected by 2100, the shells of Juvenile Bivalve experience massive dissolution within 24h and completely disappear in two weeks"
-
-	},
-	"BlueCrab":
-	{
-		"Name":		"BLUE KING CRAB",
-		"Description":	"<h1>The Blue King Crab is a species of North Pacific King Crab often found in the Bering Sea, which only reproduce every other year. </h1> <h2> <strong> According to research, when placed in waters with the level of acidity expected by 2100, juvenile Blue King Crabs show a change in morphology, reduced growth, and increased mortality. </strong> </h2> <h2> Research suggests the Blue King Crab may be able to alter their physiology to adapt to low pH water. However, given their current low population levels, any reduced survival or growth at a low pH level could result in lower populations in the future.</h2>",
-		"Model":	"Models/BlueCrab.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":0.7,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":30,
-        "ShareText": "According to research, when placed in waters with the level of acidity expected by 2100, juvenile Blue King Crabs show a change in morphology, reduced growth, and increased mortality"
-
-	},
 	"Turtle":
-	{
-		"Name":		"SEA TURTLE",
-		"Description":	"<h1> Sea Turtles are majestic creatures that have incredibly long life spans and glide swiftly through the waters. Even though they’ve been around since the time of dinosaurs, around 110 million years, new threats are emerging and they are an endangered species. </h1> <h2> <strong> They are ‘amniotes', meaning they breathe air and lay their eggs on land. But hotter beaches, due to climate change, will put Sea Turtle embryos at risk: during development, the sex of an embryo is determined by the heat of incubation, with warmer nests producing females and cooler nests producing males. But temperatures above 33°C are lethal. </strong> </h2> <h2> <strong> In the Coral reefs where Hawksbills, a kind of Turtle, are closely associated, increased water temperatures and acidification will undermine the ability of Coral Polyps to survive and build reefs. </strong> </h2> <h2>  Near-shore habitats where some species forage will also be destroyed by coastal flooding and decreased visibility; seagrasses are declining worldwide.</h2>",
-		"Model":	"Models/Turtle.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":1,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Increasing temperatures can be lethal to Sea Turtles' eggs if above 33C. In the Coral reefs where Hawksbills, a kind of Turtle, is found, increased water temperatures and acidification will undermine the ability of Coral Polyps to survive and build reefs"
+{
+	"Name":		"海龟",
+	"Description":	"<h1>海龟是壮观的生物，它们有着惊人的长寿，并在水中迅速地滑行。尽管它们自恐龙时代以来已经存在了大约1.1亿年，但新的威胁正在出现，它们已经是濒危物种。</h1> <h2> <strong>它们是‘胎盘动物’，这意味着它们呼吸空气并在陆地上产卵。但由于气候变化，更热的沙滩将使海龟胚胎面临风险：在发育过程中，胚胎的性别由孵化的热度决定，温暖的巢产生雌性，而凉爽的巢产生雄性。但超过33°C的温度是致命的。</strong></h2> <h2> <strong>在与hawksbills（一种海龟）密切相关的珊瑚礁中，水温增加和酸化会削弱珊瑚虫生存和建造礁石的能力。</strong> </h2> <h2>一些物种觅食的近海栖息地也将因沿海洪水和能见度下降而被破坏；海草正在全球范围内减少。</h2>",
+	"Model":	"Models/Turtle.ply",
+	"AfterYear":	1860,
+	"Categorys" : [ "Animal_" ],
+	"Scale":1,
+    "TriangleScale":0.002,
+    "Animal_PhysicsDuration":35,
+    "ShareText": "温度增加可能对海龟的卵造成致命伤害，如果超过33C。在与hawksbills（一种海龟）发现的珊瑚礁中，水温增加和酸化会削弱珊瑚虫的生存和建筑礁石的能力"
+},
 
+"Tuna":
+{
+	"Name":		"黄鳍金枪鱼",
+	"Description":	"<h1>黄鳍金枪鱼具有完美的伪装，可以帮助它在海洋中融入，并且是极强的游泳者，捕猎时可以达到80公里/小时。</h1> <h2>黄鳍金枪鱼和蓝鳍金枪鱼是数百万人的饮食的重要组成部分，并且是最有商业价值的鱼。</h2> <h2> <strong>但是大多数金枪鱼库存都已被完全利用（这意味着没有渔业扩张的空间），而有些已经过度利用（存在库存崩溃的风险）。蓝鳍金枪鱼只占全球捕捞量的1%，但非法捕捞正在将其推向灭绝的边缘。</strong></h2> <h2> <strong>研究表明，海洋的酸化增加会在暴露一周内损害黄鳍幼鱼的肝脏、肾脏、胰脏、肌肉组织和眼睛。</strong></h2> <h2>酸化还会影响其生长率20-41%并降低其存活率。</h2>",
+	"Model":	"Models/Tuna.ply",
+	"AfterYear":	1860,
+	"Categorys" : [ "Animal_"],
+	"Scale":1,
+    "TriangleScale":0.002,
+    "ShowAnimal_CameraOffsetX": 0.74,
+	"ShowAnimal_CameraOffsetY": 0.02,
+	"ShowAnimal_CameraOffsetZ": 1.92,
+	"Animal_PhysicsDuration":30,
+    "ShareText": "蓝鳍金枪鱼只占全球捕捞量的1%，但非法捕捞正在将其推向灭绝的边缘。海洋酸化在一周内损害黄鳍幼鱼的肝脏、肾脏、胰脏、肌肉组织和眼睛"
+},
+
+"Phytoplankton":
+{
+	"Name":		"浮游植物",
+	"Description":	"<h1>“浮游植物”这个词来源于希腊文，意为“游荡的植物”。它们太小了，肉眼无法看到，但当它们开花时可以从太空中看到。</h1> <h2>它们在碳化合物中的累积能量固定是大多数海洋和许多淡水食物链的基础。</h2> <h2>尽管它们可能很小，但科学家相信，尽管浮游植物只占全球植物生物量的约1%，但它们产生了世界上约50%的氧气。它们还通过其生物质（生物泵）控制大气中的CO2/O2平衡，将碳从大气中转移到海底。</h2> <h2> <strong>大多数已发表的研究预测，过去的一个世纪，浮游植物的生物量和/或初级生产已经下降，而在接下来的一个世纪将继续下降。</strong></h2> <h2>海洋变暖-热层化-有助于减少营养物质转移到表面光层，这最终限制了浮游植物的生长。</h2>",
+	"Model":	"Models/Phytoplankton.ply",
+	"AfterYear":	1860,
+	"Categorys" : [ "Animal_" ],
+	"Scale":0.3,
+    "TriangleScale":0.0005,
+	"ShowAnimal_CameraOffsetX": 0.2,
+	"ShowAnimal_CameraOffsetY": -0.02,
+	"ShowAnimal_CameraOffsetZ": 0.62,
+	"Animal_PhysicsDuration":35,
+    "ShareText": "大多数已发表的研究预测，过去的一个世纪，浮游植物的生物量和/或初级生产已经下降，而在接下来的一个世纪将继续下降"
+},
+
+"Menidia":
+{
+	"Name":		"美尼地亚鱼",
+	"Description":	"<h1>美尼地亚鱼是一种小银鱼，其最强的防御策略是“数量优势”。由于它们对环境变化的敏感性，它们经常成为科学研究的对象。</h1> <h2> <strong>研究发现，美尼地亚鱼的幼鱼生长在低氧和低pH条件下受到负面影响，无论是单独还是结合在一起。</strong></h2> <h2>另一方面，对于成年鱼，只有酸性和脱氧的水结合在一起才会产生负面影响。但随着全球温度和二氧化碳的上升，这可能是海洋的未来面貌。</h2>",
+	"Model":	"Models/Menidia.ply",
+	"AfterYear":	1860,
+	"Categorys" : [ "Animal_", "Bigbang_"],
+	"Scale":1.2,
+    "TriangleScale":0.002,
+    "Animal_PhysicsDuration":35,
+    "ShareText": "研究发现，美尼地亚鱼的幼鱼生长在低氧和低pH条件下受到负面影响，无论是单独还是结合在一起"
+},
+
+	"Mussels": {
+		"Name": "贻贝",
+		"Description": "<h1> 贻贝，其深色的外壳和闪亮的银内部，因称为Byssal的胡须状线而附着在岩石上。 </h1> <h2> 这种细长的双壳类是主要的食物来源：深深扎根于某些文化中的15亿美元的产业。</h2> <h2> <strong>它们通常可以承受严酷的天气和极端的条件。但是气候变化正在削弱它们的附着能力。研究表明，当贻贝Byssal线在酸化条件下生长，pH值低于7.6时，它们比正常情况下弱40%。</strong> </h2> <h2> <strong> 海洋酸化不仅使它们的附着线溶解，还影响它们形成外壳的方式。事实上，科学家们在pH 7.6的水中发现了25%的钙化减少，这是2100年预期的水平。</strong> </h2>",
+		"Model": "Models/Mussels.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_", "Bigbang_"],
+		"Scale": 1,
+		"TriangleScale": 0.0015,
+		"Animal_PhysicsDuration": 35,
+		"ShareText": "在酸化条件下，贻贝的Byssal线比正常情况弱40%，削弱了它们的附着能力。酸化还影响它们形成外壳的方式：在预计到2100年的pH 7.6时，钙化减少了25%"
 	},
-	"Tuna":
-	{
-		"Name":		"YELLOWFIN TUNA",
-		"Description":	"<h1> Yellowfin Tuna has the perfect camouflage that helps it blend in in the oceans and is an extremely strong swimmer, being able to go up to 80km/h when hunting.</h1> <h2> The Yellowfin and Bluefin Tuna are integral to the diet of millions of people and one of the most commercially valuable fish. <strong>  But most tuna stocks are fully exploited (meaning there is no room for fishery expansion) and some are already overexploited (there is a risk of stock collapse). Bluefin Tuna represents only 1% of the global catch, but illegal fishing is pushing it to the brink of extinction. </strong> </h2> <h2> <strong> Research shows that the increasing acidification of the oceans causes damages to the liver, kidney, pancreas, muscle tissue, and eyes of the Yellowfin larvae within a week of exposure. </strong> </h2> <h2> Acidification also affects their growth rate of 20-41% and reduces their rate of survival. </h2>",
-		"Model":	"Models/Tuna.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_"],
-		"Scale":1,
-        "TriangleScale":0.002,
-        "ShowAnimal_CameraOffsetX": 0.74,
-		"ShowAnimal_CameraOffsetY": 0.02,
-		"ShowAnimal_CameraOffsetZ": 1.92,
-		"Animal_PhysicsDuration":30,
-        "ShareText": "Bluefin Tuna represents only 1%25 of the global catch, but illegal fishing is pushing it to the brink of extinction. Ocean acidification causes damages to the liver, kidney, pancreas, muscle tissue, and eyes of the Yellowfin larvae within a week of exposure"
-
+	"Crab": {
+		"Name": "短尾蟹",
+		"Description": "<h1>一个有10条腿的甲壳动物，短尾蟹的尾巴隐藏在主体下面，它们的骨骼在身体外部，即外骨骼。</h1> <h2> 温暖的温度可能会使短尾蟹侵入南极周围的架子，对在没有这种捕食者的情况下进化的当地生物造成严重后果。</h2> <h2> 受酸化进一步压迫的南极棘皮动物和软体动物的弱钙化外壳对这些捕食者的防御作用甚微。</h2> <h2> <strong>在pH为7.5的酸化水中研究了短尾蟹，发现它们在这些条件下生长较慢，生存率也减少。</strong> </h2> <h2> 生存和生长的减少可能对它们的种群产生严重的负面影响，如果在未来几十年没有进化适应或适应性。</h2>",
+		"Model": "Models/Crab.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 0.6,
+		"TriangleScale": 0.002,
+		"Animal_PhysicsDuration": 35,
+		"ShareText": "在pH为7.5的酸化水中研究了短尾蟹，发现它们在这些条件下生长较慢，生存率也减少"
 	},
-	
-	"Phytoplankton":
-	{
-		"Name":		"PHYTOPLANKTON",
-		"Description":	"<h1> Named after the Greek for “wandering plants”, Phytoplankton are too small to be seen with the naked eye, but can be seen from space when they bloom.</h1> <h2> Their cumulative energy fixation in carbon compounds is the basis for the vast majority of oceanic and many freshwater food webs. </h2> <h2>  While they may be minute, scientists believe that Phytoplankton produce around 50% of the world's oxygen despite amounting to only ~1% of global plant biomass. They have also been controlling the atmospheric CO2/O2 balance by the sequestration of carbon from the atmosphere into the seafloor through their biological mass (biological pump). </h2> <h2> <strong> The majority of published studies predict that Phytoplankton biomass and/or primary production has declined in the past century, and will decline over the next century. </strong> </h2> <h2> The warming of the ocean – thermal stratification – contributes to a reduction in the transfer of nutrients to the surface-lit layer, which ultimately limits Phytoplankton growth. </h2>",
-		"Model":	"Models/Phytoplankton.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-		"Scale":0.3,
-        "TriangleScale":0.0005,
-		"ShowAnimal_CameraOffsetX": 0.2,
-		"ShowAnimal_CameraOffsetY": -0.02,
-		"ShowAnimal_CameraOffsetZ": 0.62,
-		"Animal_PhysicsDuration":35,
-        "ShareText": "The majority of published studies predict that Phytoplankton biomass and/or primary production has declined in the past century, and will decline over the next century"
+	"BrittleStar": {
+		"Name": "脆星",
+		"Description": "<h1> 脆星是海星的近亲，有一个中心身体和五个长臂，它们用来在海底爬行。</h1> <h2>脆星已经在这个星球上生活了大约5亿年，但由于水的酸度上升，它们现在可能面临严重的种群下降。成年动物在再生它们的手臂时可能会失去肌肉质量，大部分幼虫都无法生存。</h2> <h2> <strong>随着二氧化碳水平的增加和海洋的酸度上升，脆星和其他无脊椎动物分泌钙质的能力可能会减少，影响它们的骨骼形成和生存能力。当前的研究表明脆星接近溶解的阈值。</strong></h2>",
+		"Model": "Models/BrittleStar.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 0.55,
+		"TriangleScale": 0.002,
+		"Animal_PhysicsDuration": 30,
+		"ShareText": "随着酸化增加，脆星和其他无脊椎动物分泌钙质的能力可能会减少，影响它们的骨骼形成和生存能力。当前的研究表明脆星接近溶解的阈值"
 	},
-
-	"Menidia":
-	{
-		"Name":		"MENIDIA MENIDIA",
-		"Description":	"<h1> Menidia Menidia is a small silver fish who’s strongest form of defense is the “strength-in-numbers” strategy. They are a common subject of scientific research because of their sensitivity to environmental changes. </h1> <h2> <strong> Studies find that the larval growth of the small Menidia Menidia fish is negatively affected in both reduced oxygen and low pH conditions, both independently and combined. </strong> </h2> <h2> In adults, on the other hand, only the combination of acidic and deoxygenated waters has a negative effect. But with rising global temperatures and carbon dioxide, this might be what the future of the oceans look like. </h2>",
-		"Model":	"Models/Menidia.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_"],
-		"Scale":1.2,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Studies find that the larval growth of the small Menidia Menidia fish is negatively affected in both reduced oxygen and low pH conditions, both independently and combined"
-
-	},
-
-		"Mussels":
-	{
-		"Name":		"MUSSELS",
-		"Description":	"<h1>  Mussels, with their dark shells and shimmering, silvery interiors, live attached to rocks thanks to beard like threads called Byssal. </h1> <h2> These elongated bivalve are a major food source: a booming $1.5 billion industry that is deeply rooted in some cultures. </h2> <h2> <strong>They can usually withstand harsh weather and extreme conditions. But climate change is impairing their ability to cling. Research has shown that when Mussel Byssal threads are grown in acidified conditions with a pH lower than 7.6, they are 40% weaker than normal. </strong> </h2> <h2> <strong>  Ocean acidification doesn't just dissolve their clinging threads, it also affects the way they can form their shells. Scientists have in fact discovered a 25% decrease in calcification in waters with pH 7.6, the level expected by 2100.</strong> </h2> ",
-		"Model":	"Models/Mussels.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_", "Bigbang_" ],
-		"Scale":1,
-        "TriangleScale":0.0015,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Mussels' Byssal threads in acidified conditions are 40%25 weaker than normal, impairing their ability to cling. Acidification also affects the way their shells are formed: at pH 7.6, expected by 2100, calcification decreased by 25%25"
-
-	},
-
-	"Crab":
-	{
-		"Name":		"BRACHYURAN CRAB",
-		"Description":	"<h1>A crustacean with 10 limbs, the Brachyuran Crab lives with its tail hidden underneath the main body, and have their skeleton outside of their body, the exoskeleton. </h1> <h2>  Warming temperatures may allow the Brachyuran Crab to invade the shelf surrounding Antarctica, with significant consequences for the local organisms that have evolved in the absence of such predators.</h2> <h2> The weakly calcified shells of Antarctic echinoderms and molluscs – further stressed by acidification – would provide little defense from these predators.</h2> <h2> <strong>Brachyuran Crabs have been studied in acidified waters with a pH of 7.5, which found that they grow slower and their survival decreases in these conditions. </strong> </h2> <h2> The decrease in survival and growth is likely to have a serious negative effect on their populations, in the absence of evolutionary adaptation or acclimatization over the coming decades.</h2>",
-		"Model":	"Models/Crab.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_"],
-		"Scale":0.6,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Brachyuran Crabs have been studied in acidified waters with a pH of 7.5, which found that they grow slower and their survival decreases in these conditions"
-
-	},
-		"BrittleStar":
-	{
-		"Name":		"BRITTLE STAR",
-		"Description":	"<h1> The Brittle Star is a close relation of the starfish, with a central body and five long arms which they use to crawl around the ocean floor.</h1> <h2>Brittle Stars have been on this planet for about 500 million years, but they could now face severe population decline due to the rise in acidity of the water. The adults might lose muscle mass while regenerating their arms, and most of the larvae won't survive. </h2> <h2> <strong> With increasing levels of carbon dioxide and rising acidity in the ocean, Brittle Stars and other invertebrates may have more difficulty secreting calcite, affecting their skeletal formation and their ability to survive. Current research suggests Brittle Stars are close to a threshold of dissolution.</strong></h2>",
-		"Model":	"Models/BrittleStar.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_" ],
-        "Scale":0.55,
-        "TriangleScale":0.002,
-        "Animal_PhysicsDuration":30,
-        "ShareText": "With increasing acidification, Brittle Stars and other invertebrates may have more difficulty secreting calcite, affecting their skeletal formation and their ability to survive. Current research suggests Brittle Stars are close to a threshold of dissolution"
-	},
-		"Coral":
-	{
-		"Name":		"CORAL",
-		"Description":	"<h1> Coral reefs have served as “cradles of evolution“ throughout Earth’s biological history. More marine species have originated in reef ecosystems than in any other. And today, Coral reefs are home to an estimated 1 million types of organisms – 25% of the world’s species. But despite supporting so much life, their own is very fragile. </h1> <h2>They are also a marine invertebrate that live in symbiosis with a photosynthetic unicellular organism called zooxanthellae, which sustains the Coral with nutrients. </h2> <h2> Coral bleaching is the best known threat: in the case of warmer waters, the Coral expels the zooxanthellae, causing the Coral to turn completely white and be prone to death.</h2> <h2> <strong>Another important threat is ocean acidification: research has shown that most Corals grown in low pH conditions highly reduce their calcification rates, especially when in combination with warmer temperatures. </strong> </h2> <h2> And summer time adds another threat: most sun creams contain Oxybenzone which is toxic to Corals.</h2>",
-		"Model":	"Models/Coral.ply",
-		"AfterYear":	1860,
-		"Categorys" : [ "Animal_"],
-        "Scale":0.6,
-        "TriangleScale":0.0025,
-        "Animal_PhysicsDuration":35,
-        "ShareText": "Another important threat is ocean acidification: research has shown that most Corals grown in low pH conditions highly reduce their calcification rates, especially when in combination with warmer temperatures"
-
+	"Coral": {
+		"Name": "珊瑚",
+		"Description": "<h1> 珊瑚礁在地球的生物历史中一直是“进化的摇篮”。比在任何其他地方都有更多的海洋物种起源于珊瑚礁生态系统。而今天，珊瑚礁为数十亿人提供食物、保护和工作。</h1> <h2>然而，过去的几十年中，全球70%的珊瑚礁都受到了威胁，其中25%已经死亡。其中一个原因是珊瑚的白化，这是由于海温上升和海洋酸化导致的。</h2> <h2> <strong>酸化使珊瑚更难以获得形成其骨骼的钙碳酸盐。由于酸度上升，珊瑚在pH为7.6的水中形成了20%的骨骼。</strong></h2> <h2> <strong>这使它们更易受到风化和风暴的侵蚀，减少了它们为鱼和其他生物提供的栖息地。</strong></h2>",
+		"Model": "Models/Coral.ply",
+		"AfterYear": 1860,
+		"Categorys": ["Animal_"],
+		"Scale": 1,
+		"TriangleScale": 0.001,
+		"Animal_PhysicsDuration": 20,
+		"ShareText": "由于海洋酸化，珊瑚在pH为7.6的水中形成了20%的骨骼，这使得它们更易受到风化和风暴的侵蚀，减少了它们为鱼和其他生物提供的栖息地"
 	},
 	
-		"Microplastic":
-	{
-		"Name":		"MICROPLASTIC",
-		"Description":	"<h1>Microplastic constitutes any type of plastic fragment that is less than 5 millimetres long and is spawned from clothes, cosmetics, and weathered bigger plastic. </h1> <h2> <strong>A 2015 study estimated that there was between 93 and 236 thousand metric tons of Microplastics in the world’s oceans. </strong> </h2> <h2><strong> Scientists are only just now discovering how much the problem of Microplastic has spread. They studied the scat of 51 wild fur Seals and discovered that 67% of the samples showed an abundance of microfibres. </strong> </h2> <h2> Microfibres are the least studied form of Microplastic. They are small hairs of plastic, less than 1 millimetre in size, from materials such as polyester or nylon and can end up in the ocean through waste water even after cleaning. They can also absorb a wide array of pollutants. </h2>",
-		"Model":	"Models/Microplastic.ply",
-		"AfterYear":	1956,
-		"Categorys" : [ "Nasty_Animal_" ],
-		"Scale":1,
-        "TriangleScale":0.003,
-        "ShareText": "93 to 236 thousand metric tons of Microplastics are estimated in the world's oceans. Scientists have recently discovered the gravity of the problem. In a recent study, 67%25 of the scat of 51 wild fur Seals showed an abundance of microfibres"
+	
+	"Microplastic": {
+        "Name": "微塑料",
+        "Description": "<h1>微塑料是指任何长度小于5毫米的塑料碎片，来源于衣物、化妆品和经过风化的较大塑料。</h1> <h2> <strong>2015年的一项研究估计世界各大洋中的微塑料总量在93,000到236,000公吨之间。</strong> </h2> <h2><strong>科学家们现在才开始发现微塑料问题的严重程度。他们研究了51只野生海豹的排泄物，发现67%的样本中有大量的微纤维。</strong> </h2> <h2> 微纤维是微塑料中研究得最少的一种形式。它们是塑料的小毛发，大小小于1毫米，来源于聚酯或尼龙等材料，即使清洗后也会通过废水进入海洋。它们还可以吸收各种污染物。</h2>",
+        "Model": "Models/Microplastic.ply",
+        "AfterYear": 1956,
+        "Categorys": ["Nasty_Animal_"],
+        "Scale": 1,
+        "TriangleScale": 0.003,
+        "ShareText": "估计世界各大洋中有93,000到236,000公吨的微塑料。科学家近期发现了这一问题的严重性。在最近的一项研究中，67%的51只野生海豹的排泄物中都显示出了大量的微纤维"
+    },
+    "Bottle": {
+        "Name": "塑料瓶",
+        "Description": "<h1>这可能是一个透明的水母吗？不幸的是不是。这只是一个塑料瓶。</h1> <h2> <strong>每分钟全球购买100万个塑料瓶。到2021年，这个数字将再增加20%，造成的环境危机预计将与气候变化一样严重。</strong> </h2> <h2> 2016年全球销售的塑料饮料瓶超过4800亿个，比十年前的约3000亿个有所增长。<strong>如果这些瓶子首尾相连，它们的长度会超过通往太阳的一半。</strong> </h2> <h2> <strong>有报道预测，到2021年这一数字将增加到5833亿。</strong> </h2> <h2>2016年购买的瓶子中，不到一半被收集用于回收，而那些被收集的只有7%被再次用于制瓶。</h2> <h2>每年有500万到1300万吨的塑料进入世界各大洋，被海鸟、鱼和其他生物摄取。到2050年，海洋中的塑料重量将超过鱼。</h2>",
+        "Model": "Models/Bottle.ply",
+        "AfterYear": 1956,
+        "Categorys": ["Nasty_Animal_"],
+        "TriangleScale": 0.003,
+        "ShareText": "每分钟全球购买100万个塑料瓶。到2021年，这个数字将再增加20%，达到约5833亿，这些瓶子的长度如果首尾相连会超过通往太阳的一半，预计造成的环境危机与气候变化一样严重。"
+    },
+    "Can": {
+        "Name": "铝罐",
+        "Description": "<h1><strong>铝罐可以完全回收。然而，它们却遍布各大洋，伤害一些海洋动物，并被其他误以为是食物的生物所摄取，造成致命影响。</strong></h1> <h2>铝罐的全球生产量每年达到1800亿个。</h2> <h2>如果一个铝罐进入垃圾填埋场，它将在那里停留500年才会氧化。回收铝比从其原材料生产所需的能量少95%，而且回收过程产生的温室气体排放仅为5%。</h2>",
+        "Model": "Models/Can.ply",
+        "AfterYear": 1956,
+        "Categorys": ["Nasty_Animal_"],
+        "TriangleScale": 0.003,
+        "ShareText": "铝罐可以完全回收。然而，它们却遍布各大洋，伤害一些海洋动物，并被其他误以为是食物的生物所摄取，造成致命影响。"
+    },
+    "Straw": {
+        "Name": "塑料吸管",
+        "Description": "<h1>五彩缤纷且轻巧的塑料吸管已经成为浪费的象征，消费者觉得避免使用它们是一种可以实现的方式，使他们感觉自己正在做出改变。</h1> <h2>大多数塑料吸管由于过于轻盈而无法通过机械回收分类机，并且尽管它们可以被回收，但大多数回收计划都不接受它们。所以它们通常最终被丢进垃圾填埋场和海洋。</h2> <h2><strong>仅在美国，每天就使用了5亿个吸管，这个数量每天可以填满超过127辆校车，或者每年超过46,400辆校车。</strong></h2> <h2><strong>塑料吸管不会生物降解，它们只是分解成更小的碎片，这些碎片将永远留在地球上。</strong></h2>",
+        "Model": "Models/Straw.ply",
+        "AfterYear": 1956,
+        "Categorys": ["Nasty_Animal_"],
+        "TriangleScale": 0.003,
+        "ShareText": "塑料吸管不会生物降解，它们只是分解成更小的碎片，这些碎片将永远留在地球上。仅在美国，每天就使用了5亿个吸管，这个数量每天可以填满超过127辆校车，或者每年超过46,400辆校车。"
+    },
 
-	},
-		"Bottle":
+	"Bag":
 	{
-		"Name":		"PLASTIC BOTTLE",
-		"Description":	"<h1> Could this be a transparent Jellyfish? Unfortunately not. It's just a Plastic Bottle. </h1> <h2> <strong> 1 million Plastic Bottles are bought around the world every minute. That number will jump another 20% by 2021, creating an environmental crisis some predict will be as serious as climate change.  </strong> </h2> <h2> More than 480 billion Plastic drinking Bottles were sold in 2016 around the world, up from about 300 billion a decade ago.<strong> If placed end to end, they would extend more than halfway to the Sun.</strong> </h2> <h2> <strong> Reports suggest that by 2021 this number will increase to 583.3 billion.  </strong> </h2> <h2>Fewer than half of the bottles bought in 2016 were collected for recycling and just 7% of those collected were turned into new bottles. </h2> <h2> Between 5 million and 13 million tonnes of plastic leaks into the world’s oceans each year to be ingested by sea birds, fish, and other organisms. By 2050 the ocean will contain more plastic by weight than fish. </h2>",
-		"Model":	"Models/Bottle.ply",
-		"AfterYear":	1956,
-		"Categorys" : [ "Nasty_Animal_" ],
-        "TriangleScale":0.003,
-        "ShareText": "1 million Plastic Bottles are bought around the world every minute. This will jump up another 20%25 by 2021, to about 583.3 billion, more than halfway to the Sun, creating an environmental crisis predicted to be as serious as climate change"
-
-	},
-		"Can":
-	{
-		"Name":		"ALUMINIUM CAN",
-		"Description":	"<h1><strong>The Aluminium Can can be fully recycled. Yet it is found all over the oceans, injuring some marine animals and being consumed by others who confuse it for food, with deadly effect. </strong></h1> <h2> The global production of Aluminium Cans amounts to 180 billion annually. </h2> <h2> If an Aluminium Can goes to landfill, it will stay there for 500 years before it oxidises. Recycling aluminium takes 95% less energy than producing it from its raw materials, and the recycling process also generates only 5% of greenhouse gas emissions.</h2>",
-		"Model":	"Models/Can.ply",
-		"AfterYear":	1956,
-		"Categorys" : [ "Nasty_Animal_" ],
-        "TriangleScale":0.003,
-        "ShareText": "The Aluminium Can can be fully recycled. Yet it is found all over the oceans, injuring some marine animals and being consumed by others who confuse it for food, with deadly effect"
-
-	},
-		"Straw":
-	{
-		"Name":		"PLASTIC STRAW",
-		"Description":	"<h1> Colorful and lightweight, Plastic Straws have become a symbol of waste and a feasible way for consumers to feel like they're making a difference by avoiding using them. </h1> <h2> Most Plastic Straws are too lightweight to make it through the mechanical recycling sorter and, even though they could be recycled, they aren't accepted by most recycling programs. So they usually end up in landfills and the ocean. </h2> <h2> <strong> In the U.S.A alone, 500 million Straws are used every day, an amount that could fill over 127 school buses each day, or more than 46,400 school buses every year. </strong> </h2> <h2> <strong> Plastic Straws don't biodegrade, they just break down into smaller pieces that will always remain on Earth. </strong> </h2>",
-		"Model":	"Models/Straw.ply",
-		"AfterYear":	1956,
-		"Categorys" : [ "Nasty_Animal_" ],
-        "TriangleScale":0.003,
-        "ShareText": "Plastic Straws don't biodegrade, they break down into smaller pieces that will always remain on Earth. In the U.S.A alone, 500 million Straws are used every day, an amount that could fill over 127 school buses each day, or more than 46,400 every year"
-
-	},
-		"Bag":
-	{
-		"Name":		"PLASTIC BAG",
-		"Description":	"<h1> A delicious jelly animal? This is the mistake that many animals, like turtles, make. This is a Plastic Bag, a gently moving, thin sack with the power to suffocate, pollute, and intoxicate many animals. </h1> <h2> This year 5 trillion Plastic Bags will be consumed with an average of 160,000 per second. This amount would be able to wrap around the world 7 times every hour, and cover an area twice the size of France. </h2> <h2> Most bags are simply thrown out, as they have an average “working life” of 15 minutes, and less than 1% are recycled. They are most often made from Polyethylene, which takes centuries to break down. Each ton of recycled Plastic Bags produces energy equivalent to 11 barrels of oil, another incredibly destructive pollutant of our oceans. </h2> <h2> <strong> Seabirds, Turtles, Seals, Sea Lions, Whales, Fish and more eat these Plastic Bags. The death of one Sperm Whale found in California in the USA in 2008 was caused by 22.2kg of plastic that the Whale had eaten. </strong></h2>",
-		"Model":	"Models/Bag.ply",
-		"AfterYear":	1956,
+		"Name": "塑料袋",
+		"Description": "<h1>一个美味的果冻动物？许多动物，如海龟，都犯了这个错误。这是一个塑料袋，一个轻轻移动、薄薄的口袋，有能力使许多动物窒息、污染和中毒。</h1><h2>今年将消耗5万亿个塑料袋，平均每秒160,000个。这个数量每小时可以环绕地球7次，并覆盖两个法国大小的面积。</h2><h2>大多数袋子都被简单地扔掉，因为它们的平均“工作寿命”为15分钟，不到1%被回收。它们通常由聚乙烯制成，需要几个世纪才能分解。每吨回收的塑料袋产生的能量相当于11桶石油，这是我们海洋的另一个极具破坏性的污染物。</h2><h2><strong>海鸟、海龟、海豹、海狮、鲸鱼、鱼类等都吃这些塑料袋。2008年在美国加利福尼亚发现的一只抹香鲸的死因是吃了22.2公斤的塑料。</strong></h2>",
+		"Model": "Models/Bag.ply",
+		"AfterYear": 1956,
 		"Categorys" : [ "Nasty_Animal_" ],
 		"Scale":1,
         "TriangleScale":0.003,
         "ShowAnimal_CameraOffsetX": 0.8,
 		"ShowAnimal_CameraOffsetY": 0.06,
 		"ShowAnimal_CameraOffsetZ": 1.92,
-        "ShareText": "Seabirds, Turtles, Seals, Sea Lions, Whales, Fish and more eat Plastic Bags. The death of one Sperm Whale found in California in the USA in 2008 was caused by 22.2kg of plastic that the Whale had eaten"
-
+        "ShareText": "海鸟、海龟、海豹、海狮、鲸鱼、鱼类等都吃塑料袋。2008年在美国加利福尼亚发现的一只抹香鲸的死因是吃了22.2公斤的塑料"
 	},
-		"Assorbente":
+	"Assorbente":
 	{
-		"Name":		"SANITARY PAD",
-		"Description":	"<h1> This creature appears to swim like a Manta Ray, gliding through the water with their wing-like movements. But sadly it is a Sanitary Pad.</h1> <h2> This recent anthropocene-born, ocean dweller, the Sanitary Pad is often made of up to 90% of plastic. Floating lifelessly through the oceans they soon become breeding grounds for germs and pathogenic microbes.</h2> <h2> As many as 10,000 disposable period products are used in a woman's reproductive lifetime, which corresponds to a carbon footprint of 5,3kg of CO2 per year for every woman on the planet.</h2> <h2> <strong>Every year, women in the United Kingdom alone produce the equivalent of 200,000 tonnes of menstrual waste. That’s 27 Eiffel Towers. </strong> </h2> <h2> Forty pads, panty liners, and backing strips are found for every kilometre of beach in the U.K., along with 12 used tampons and applicators.</h2>",
-		"Model":	"Models/Assorbente.ply",
-		"AfterYear":	1956,
+		"Name": "卫生巾",
+		"Description": "<h1>这种生物看起来像蝠鲼一样在水中游泳，用它们翼状的运动滑行。但遗憾的是，它是一个卫生巾。</h1><h2>这种最近出现的人类时代出生的海洋居民，卫生巾通常由高达90%的塑料制成。它们浮在海洋中，很快就成为细菌和病原微生物的繁殖地。</h2><h2>在一个女性的生育期内，可能使用多达10,000个一次性的月经产品，相当于每年每个女性的碳足迹为5.3公斤CO2。</h2><h2><strong>每年，仅在英国，女性产生相当于200,000吨的月经废物。这相当于27座埃菲尔铁塔。</strong></h2><h2>在英国的每一公里海滩上，都有40个卫生巾、护垫和背衬带，以及12个已使用的卫生棉条和塑料塞。</h2>",
+		"Model": "Models/Assorbente.ply",
+		"AfterYear": 1956,
 		"Categorys" : [ "Nasty_Animal_" ],
 		"Scale":1,
         "TriangleScale":0.003,
-        "ShareText": "About 10,000 disposable products are used in a woman's reproductive lifetime, a carbon footprint of 5,3kg of CO2 per year for every woman on the planet. Every year, women in the United Kingdom alone produce 27 Eiffel Towers of menstrual waste"
-
+        "ShareText": "一个女性的生育期内使用大约10,000个一次性的月经产品，每年每个女性的碳足迹为5.3公斤CO2。每年，仅在英国，女性产生27座埃菲尔铁塔的月经废物"
 	},
-		"Plastic":
+	"Plastic":
 	{
-		"Name":		"PIECES OF PLASTIC",
-		"Description":	"<h1> Plastic is a material consisting of any of a wide range of synthetic or semi-synthetic compounds that can be moulded into solid objects. And once moulded, they are here to stay. </h1> <h2>More than 8 million tons of plastic are dumped in the oceans every year. </h2> <h2> <strong> One in three species of marine mammals have been found entangled in marine litter. </strong> </h2> <h2> Over 90% of all seabirds have pieces of plastic in their stomachs, and every year 1 million seabirds die from plastic pollution. </h2> <h2> <strong> It's predicted that by 2050, 99% of all species will have ingested plastic.</strong> </h2>",
-		"Model":	"Models/Plastic.ply",
-		"AfterYear":	1956,
+		"Name": "塑料片",
+		"Description": "<h1>塑料是由任何一种广泛的合成或半合成化合物制成的材料，可以塑造成固体物体。一旦塑造，它们就会留下来。</h1><h2>每年有超过800万吨的塑料被倾倒在海洋中。</h2><h2><strong>三分之一的海洋哺乳动物被发现被海洋垃圾缠住。</strong></h2><h2>超过90%的所有海鸟都有塑料片在他们的胃里，每年有100万海鸟因塑料污染而死亡。</h2><h2><strong>预计到2050年，99%的所有物种都会摄取塑料。</strong></h2>",
+		"Model": "Models/Plastic.ply",
+		"AfterYear": 1956,
 		"Categorys" : [ "Nasty_Animal_" ],
 		"Scale":1,
         "TriangleScale":0.003,
-        "ShareText": "One in three species of marine mammals have been found entangled in marine litter. It's predicted that by 2050, 99%25 of all species will have ingested plastic"
-
+        "ShareText": "三分之一的海洋哺乳动物被发现被海洋垃圾缠住。预计到2050年，99%的所有物种都会摄取塑料"
 	},
-		"FoodContainer":
+	"FoodContainer":
 	{
-		"Name":		"FOOD PACKAGING",
-		"Description":	"<h1> Food Packaging provides protection for our food and special physical, chemical, or biological needs. Its use certainly has many advantages, but once that comes to an end it becomes the greatest source of plastic pollution: almost every product in the supermarket is covered in plastic.</h1> <h2> <strong>  Food Packaging plastic waste accounts for just over 40% of total plastic usage. </strong> </h2> <h2>Putting an end to their use is impossible: when burnt it pollutes the air, when disposed in landfills it causes land pollution, and when dumped into water it pollutes it. </h2> <h2> <strong> Over the last 10 years more plastic has been produced than during the whole of the last century. </strong></h2>",
-		"Model":	"Models/FoodContainer.ply",
-		"AfterYear":	1956,
+		"Name": "食品包装",
+		"Description": "<h1>食品包装为我们的食物提供保护和特殊的物理、化学或生物需要。其使用确实有很多优点，但一旦结束，它就成为了最大的公害之一。</h1><h2>2020年，消费者使用了5800万吨的食品包装，相当于每个人每天4.5公斤。</h2><h2><strong>50%的食品包装是塑料制品，其中85%是一次性的。</strong></h2><h2>例如，一次性用具如吸管、刀叉、杯子和碗是塑料污染的首要来源。从生产到废弃，它们在环境中留下了深远的影响。</h2><h2><strong>因为它们轻而且容易飘散，所以它们经常被风吹到海里，影响海洋生物。</strong></h2>",
+		"Model": "Models/FoodContainer.ply",
+		"AfterYear": 1956,
 		"Categorys" : [ "Nasty_Animal_" ],
 		"Scale":1,
         "TriangleScale":0.003,
-        "ShareText": "Food Packaging plastic waste accounts for just over 40%25 of total plastic usage. Over the last 10 years more plastic has been produced than during the whole of the last century"
-
+        "ShareText": "50%的食品包装是塑料制品，其中85%是一次性的。一次性用具如吸管、刀叉、杯子和碗是塑料污染的首要来源"
 	},
+
 		"Cigarette":
 	{
-		"Name":		"CIGARETTE STUB",
-		"Description":	"<h1> This isn’t a Polyp. It’s a Cigarette Stub. </h1> <h2> The core of most Cigarette filters, the part that looks like white cotton, is actually a form of plastic called cellulose acetate. By itself, cellulose acetate takes between 18 months to 10 years to degrade, meaning they break down into smaller pieces, but don’t disappear.  </h2> <h2> <strong> Studies have shown that one Cigarette filter in about two gallons of water is lethal to water fleas, a tiny crustacean found in fresh water and salt water. Wildlife also easily confuses them for food and ingests them. </strong></h2> <h2> In 2017, Cigarette filters were the biggest source of plastic pollution on beaches, with 1,863,838 collected.  </h2>",
-		"Model":	"Models/Cigarette.ply",
-		"AfterYear":	1956,
-		"Categorys" : [ "Nasty_Animal_" ],
-		"Scale":0.5,
-        "TriangleScale":0.002,
-        "ShareText": "Studies have shown that one Cigarette filter in about two gallons of water is lethal to water fleas, a tiny crustacean found in fresh water and salt water. Wildlife also easily confuses them for food and ingests them"
-
+		"Name": "香烟蒂",
+		"Description": "<h1>这不是珊瑚的一种。这是一个香烟蒂。</h1> <h2>大多数香烟滤芯的核心，看起来像白色棉花的部分，实际上是一种叫做醋酸纤维素的塑料。单独的醋酸纤维素需要18个月到10年来降解，这意味着它们会分解成更小的片段，但不会消失。</h2> <h2><strong>研究表明，约两加仑的水中的一个香烟滤芯对水跳蚤是致命的，水跳蚤是在淡水和盐水中发现的一种微小的甲壳动物。野生动物也很容易将它们误认为是食物并摄取它们。</strong></h2> <h2>2017年，香烟滤芯是海滩上塑料污染的最大来源，收集了1,863,838个。</h2>",
+		"Model": "Models/Cigarette.ply",
+		"AfterYear": 1956,
+		"Categorys": ["Nasty_Animal_"],
+		"Scale": 0.5,
+        "TriangleScale": 0.002,
+        "ShareText": "研究表明，约两加仑的水中的一个香烟滤芯对水跳蚤是致命的，水跳蚤是在淡水和盐水中发现的一种微小的甲壳动物。野生动物也很容易将它们误认为是食物并摄取它们。"
 	},
-		"Net":
+	"Net":
 	{
-		"Name":		"GHOST NET",
-		"Description":	"<h1> Floating lifelessly and endlessly this isn't any kind of fish. It's a Ghost Net. Abandoned. It's catch won't feed anybody. </h1> <h2> Discarded nylon plastic Fishing Nets comprise a large part of plastic pollution, with an estimated 640,000 tons – amounting to around £1.28 billion – of fishing gear left in the ocean each year. </h2> <h2> <strong> On average, these nets entangle and harm between 30-40 marine animals per net when left in the ocean. </strong></h2>",
-		"Model":	"Models/Net.ply",
-		"AfterYear":	1956,
-		"Categorys" : [ "Nasty_Animal_" ],
-		"Scale":1,
-        "TriangleScale":0.003,
-        "ShareText": "On average, abandoned fishing nets entangle and harm between 30,40 marine animals per net when left in the ocean"
-
+		"Name": "鬼网",
+		"Description": "<h1>这不是任何种类的鱼。这是一个被遗弃的鬼网。它的捕获物不会喂养任何人。</h1> <h2>被丢弃的尼龙塑料渔网占据了塑料污染的很大一部分，估计每年有640,000吨的渔具被遗留在海洋中，总额达到了约12.8亿英镑。</h2> <h2><strong>平均来说，这些网在海洋中时会纠缠并伤害到30-40种海洋动物。</strong></h2>",
+		"Model": "Models/Net.ply",
+		"AfterYear": 1956,
+		"Categorys": ["Nasty_Animal_"],
+		"Scale": 1,
+        "TriangleScale": 0.003,
+        "ShareText": "平均来说，被遗弃的渔网在海洋中会纠缠并伤害到30至40种海洋动物。"
 	}
 	
 
